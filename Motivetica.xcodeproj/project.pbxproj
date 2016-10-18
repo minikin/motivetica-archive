@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8589E37A1DB605080013973E /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8589E3781DB605080013973E /* Fabric.framework */; };
+		8589E37B1DB605080013973E /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8589E3791DB605080013973E /* Crashlytics.framework */; };
 		CEB1C8871DB5819B00710497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1C8861DB5819B00710497 /* AppDelegate.swift */; };
 		CEB1C8891DB5819B00710497 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1C8881DB5819B00710497 /* ViewController.swift */; };
 		CEB1C88C1DB5819B00710497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB1C88A1DB5819B00710497 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8589E3781DB605080013973E /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		8589E3791DB605080013973E /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		CEB1C8831DB5819B00710497 /* Motivetica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Motivetica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB1C8861DB5819B00710497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEB1C8881DB5819B00710497 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8589E37B1DB605080013973E /* Crashlytics.framework in Frameworks */,
+				8589E37A1DB605080013973E /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +80,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8589E3771DB604F60013973E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8589E3781DB605080013973E /* Fabric.framework */,
+				8589E3791DB605080013973E /* Crashlytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEB1C87A1DB5819B00710497 = {
 			isa = PBXGroup;
 			children = (
+				8589E3771DB604F60013973E /* Frameworks */,
 				CEB1C8851DB5819B00710497 /* Motivetica */,
 				CEB1C89A1DB5819B00710497 /* MotiveticaTests */,
 				CEB1C8A51DB5819B00710497 /* MotiveticaUITests */,
@@ -185,6 +201,7 @@
 				CEAB7F761DB58B96006DA5CE /* ShellScript */,
 				CEB1C8801DB5819B00710497 /* Frameworks */,
 				CEB1C8811DB5819B00710497 /* Resources */,
+				8589E3761DB604DA0013973E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -308,6 +325,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		8589E3761DB604DA0013973E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 1d1073e481f03a63080060b0030c34fc51059f00 9b38a8c84d786cd912959c0fca71510aa9bfd7072f43a7a0732ddeb7b83496ce";
+		};
 		CEAB7F751DB58ADB006DA5CE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 12;
@@ -421,7 +451,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -500,7 +530,7 @@
 				DEVELOPMENT_TEAM = U8369V84MM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Motivetica/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -518,7 +548,7 @@
 				DEVELOPMENT_TEAM = U8369V84MM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Motivetica/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
