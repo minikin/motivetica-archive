@@ -1,0 +1,31 @@
+PODS:
+  - Crashlytics (3.8.3):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.10)
+  - RxBlocking (3.0.0-rc.1):
+    - RxSwift (~> 3.0.0-rc.1)
+  - RxCocoa (3.0.0-rc.1):
+    - RxSwift (~> 3.0.0-rc.1)
+  - RxSwift (3.0.0-rc.1)
+  - RxTest (3.0.0-rc.1):
+    - RxSwift (~> 3.0.0-rc.1)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - RxBlocking (= 3.0.0-rc.1)
+  - RxCocoa (= 3.0.0-rc.1)
+  - RxSwift (= 3.0.0-rc.1)
+  - RxTest (= 3.0.0-rc.1)
+
+SPEC CHECKSUMS:
+  Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
+  Fabric: c73f371ee543e3f0b80608f2674750e4910d1669
+  RxBlocking: f942482a50abfefa84a33406b67c53af50e6cc2a
+  RxCocoa: e72a074a7f38896ec0382d096df5f58df10115c7
+  RxSwift: d7a3819dd71789c473e3cbf1a0c02d58b2692739
+  RxTest: e7044409e1db9d2a4968ede599909c7a41539256
+
+PODFILE CHECKSUM: 4f6e930771b5768464a4086dcaa1a2ebe50925aa
+
+COCOAPODS: 1.0.1

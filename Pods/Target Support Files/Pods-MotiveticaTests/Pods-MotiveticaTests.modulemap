@@ -1,0 +1,6 @@
+framework module Pods_MotiveticaTests {
+  umbrella header "Pods-MotiveticaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
