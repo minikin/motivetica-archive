@@ -12,7 +12,6 @@
 		CEA348731DD10E0D00BD1F20 /* MotiveticaKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEA348721DD10E0D00BD1F20 /* MotiveticaKeys.plist */; };
 		CEA348751DD10F6A00BD1F20 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA348741DD10F6A00BD1F20 /* MainViewController.swift */; };
 		CEB1C8871DB5819B00710497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1C8861DB5819B00710497 /* AppDelegate.swift */; };
-		CEB1C8891DB5819B00710497 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1C8881DB5819B00710497 /* ViewController.swift */; };
 		CEB1C88C1DB5819B00710497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB1C88A1DB5819B00710497 /* Main.storyboard */; };
 		CEB1C88E1DB5819B00710497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB1C88D1DB5819B00710497 /* Assets.xcassets */; };
 		CEB1C8911DB5819B00710497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB1C88F1DB5819B00710497 /* LaunchScreen.storyboard */; };
@@ -49,7 +48,6 @@
 		CEA348741DD10F6A00BD1F20 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CEB1C8831DB5819B00710497 /* Motivetica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Motivetica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB1C8861DB5819B00710497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEB1C8881DB5819B00710497 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEB1C88B1DB5819B00710497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEB1C88D1DB5819B00710497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB1C8901DB5819B00710497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -116,6 +114,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CE010C421DD11FB8009CE1DF /* DataProviders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataProviders;
+			sourceTree = "<group>";
+		};
 		CEB1C87A1DB5819B00710497 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				CEB1C88D1DB5819B00710497 /* Assets.xcassets */,
+				CE010C421DD11FB8009CE1DF /* DataProviders */,
 				CEB1C8B61DB581CD00710497 /* Helpers */,
 				CEB1C8B91DB581F400710497 /* Models */,
 				CEB1C8BA1DB5820500710497 /* Storyboards & Xibs */,
@@ -197,7 +203,6 @@
 		CEB1C8B71DB581D900710497 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				CEB1C8881DB5819B00710497 /* ViewController.swift */,
 				CEA348741DD10F6A00BD1F20 /* MainViewController.swift */,
 			);
 			path = ViewControllers;
@@ -547,7 +552,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA348751DD10F6A00BD1F20 /* MainViewController.swift in Sources */,
-				CEB1C8891DB5819B00710497 /* ViewController.swift in Sources */,
 				CEB1C8871DB5819B00710497 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -714,6 +718,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.minikin.Motivetica;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -733,6 +738,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.minikin.Motivetica;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
