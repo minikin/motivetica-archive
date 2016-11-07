@@ -2,7 +2,7 @@
 //  MotiveticaUITests.swift
 //  MotiveticaUITests
 //
-//  Created by Sasha Minikin on 10/18/16.
+//  Created by Sasha Prokhorenko on 10/18/16.
 //  Copyright © 2016 Sasha Prokhorenko. All rights reserved.
 //
 

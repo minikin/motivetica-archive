@@ -1,5 +1,7 @@
 
 # Created by https://www.gitignore.io/api/macos,swift,xcode,carthage
+### MotiveticaKeys ###
+MotiveticaKeys.plist
 
 ### macOS ###
 *.DS_Store
@@ -92,6 +94,7 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+
 
 
 ### Xcode ###

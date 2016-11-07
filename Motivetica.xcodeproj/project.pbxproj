@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3BC1AD9C138549B6680B5988 /* Pods_MotiveticaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9FA35C4C439D702FB23F2 /* Pods_MotiveticaUITests.framework */; };
 		9267DC252878BDEF686F36C3 /* Pods_MotiveticaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4534FDD5CD635C978F2F45C /* Pods_MotiveticaTests.framework */; };
+		CEA348731DD10E0D00BD1F20 /* MotiveticaKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEA348721DD10E0D00BD1F20 /* MotiveticaKeys.plist */; };
+		CEA348751DD10F6A00BD1F20 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA348741DD10F6A00BD1F20 /* MainViewController.swift */; };
 		CEB1C8871DB5819B00710497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1C8861DB5819B00710497 /* AppDelegate.swift */; };
 		CEB1C8891DB5819B00710497 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1C8881DB5819B00710497 /* ViewController.swift */; };
 		CEB1C88C1DB5819B00710497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB1C88A1DB5819B00710497 /* Main.storyboard */; };
@@ -43,6 +45,8 @@
 		41FD5B7348375BF2E4C3CB54 /* Pods-MotiveticaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotiveticaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MotiveticaTests/Pods-MotiveticaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C1231EB843822757888AD14 /* Pods-Motivetica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivetica.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Motivetica/Pods-Motivetica.debug.xcconfig"; sourceTree = "<group>"; };
 		9505768F3123A7505568BE01 /* Pods-MotiveticaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotiveticaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotiveticaTests/Pods-MotiveticaTests.release.xcconfig"; sourceTree = "<group>"; };
+		CEA348721DD10E0D00BD1F20 /* MotiveticaKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MotiveticaKeys.plist; sourceTree = "<group>"; };
+		CEA348741DD10F6A00BD1F20 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CEB1C8831DB5819B00710497 /* Motivetica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Motivetica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB1C8861DB5819B00710497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEB1C8881DB5819B00710497 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,7 +146,7 @@
 				CEB1C8B91DB581F400710497 /* Models */,
 				CEB1C8BA1DB5820500710497 /* Storyboards & Xibs */,
 				CEB1C8B51DB581C100710497 /* Supporting Files */,
-				CEB1C8B71DB581D900710497 /* ViewModels */,
+				CEB1C8B71DB581D900710497 /* ViewControllers */,
 				CEB1C8B41DB581A300710497 /* Views */,
 			);
 			path = Motivetica;
@@ -170,7 +174,7 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		CEB1C8B51DB581C100710497 /* Supporting Files */ = {
@@ -178,6 +182,7 @@
 			children = (
 				CEB1C8921DB5819B00710497 /* Info.plist */,
 				CEB1C8861DB5819B00710497 /* AppDelegate.swift */,
+				CEA348721DD10E0D00BD1F20 /* MotiveticaKeys.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -186,22 +191,23 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = Helpers;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
-		CEB1C8B71DB581D900710497 /* ViewModels */ = {
+		CEB1C8B71DB581D900710497 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				CEB1C8881DB5819B00710497 /* ViewController.swift */,
+				CEA348741DD10F6A00BD1F20 /* MainViewController.swift */,
 			);
-			name = ViewModels;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		CEB1C8B91DB581F400710497 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		CEB1C8BA1DB5820500710497 /* Storyboards & Xibs */ = {
@@ -338,6 +344,7 @@
 				CEB1C8911DB5819B00710497 /* LaunchScreen.storyboard in Resources */,
 				CEB1C88E1DB5819B00710497 /* Assets.xcassets in Resources */,
 				CEB1C88C1DB5819B00710497 /* Main.storyboard in Resources */,
+				CEA348731DD10E0D00BD1F20 /* MotiveticaKeys.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA348751DD10F6A00BD1F20 /* MainViewController.swift in Sources */,
 				CEB1C8891DB5819B00710497 /* ViewController.swift in Sources */,
 				CEB1C8871DB5819B00710497 /* AppDelegate.swift in Sources */,
 			);
