@@ -4,15 +4,11 @@ target 'Motivetica' do
   use_frameworks!
 
   # Pods for Motivetica
-  pod 'RxSwift',	'3.0.0-rc.1'
-  pod 'RxCocoa',	'3.0.0-rc.1'
 	pod 'Fabric'
 	pod 'Crashlytics'
 
   target 'MotiveticaTests' do
     inherit! :search_paths
-    pod 'RxBlocking', '3.0.0-rc.1'
-    pod 'RxTest',     '3.0.0-rc.1'
   end
 
   target 'MotiveticaUITests' do
