@@ -385,44 +385,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		001C1FD35FEAEFF943CEDEFF83F9ECD1 /* Debug */ = {
+		0F71DC92A08B224B745DAB57A7CAB5D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EF875AEBBE00794A1729A2A48EA9AAE /* Pods-MotiveticaUITests.debug.xcconfig */;
+			baseConfigurationReference = 3229D63B109DCB2C5492D415D95D4673 /* Pods-MotiveticaTests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MotiveticaUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MotiveticaTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-MotiveticaUITests/Pods-MotiveticaUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MODULEMAP_FILE = "Target Support Files/Pods-MotiveticaTests/Pods-MotiveticaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MotiveticaUITests;
+				PRODUCT_NAME = Pods_MotiveticaTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		0C72595F4DA161CA1B0A2D4C12C2F6AD /* Release */ = {
+		18326AB82E873AE87B0066B5D6C00706 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 20C9A1C61C6A23D874AA282AEFCEBDB5 /* Pods-Motivetica.release.xcconfig */;
 			buildSettings = {
@@ -442,7 +440,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MODULEMAP_FILE = "Target Support Files/Pods-Motivetica/Pods-Motivetica.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -452,14 +449,13 @@
 				PRODUCT_NAME = Pods_Motivetica;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		16D61E3183D2D30134BAEFE8F3874066 /* Debug */ = {
+		5286F5AF2A8FADC77C4F3335B05E272E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C2E1E315D0958FB2B7A3560F3D381B66 /* Pods-MotiveticaTests.debug.xcconfig */;
 			buildSettings = {
@@ -479,7 +475,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MODULEMAP_FILE = "Target Support Files/Pods-MotiveticaTests/Pods-MotiveticaTests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -489,7 +484,41 @@
 				PRODUCT_NAME = Pods_MotiveticaTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57CEF7BC2ACE8A0D1F571626C4941BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56633B6341AD8866675021D3C67E825A /* Pods-Motivetica.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Motivetica/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Motivetica/Pods-Motivetica.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Motivetica;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -540,9 +569,9 @@
 			};
 			name = Debug;
 		};
-		796933948F04882A43A857A8F67D9953 /* Release */ = {
+		79795F309AD15CB46258133FCC882C5B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3229D63B109DCB2C5492D415D95D4673 /* Pods-MotiveticaTests.release.xcconfig */;
+			baseConfigurationReference = 6021E2045D0B6598BCC1D453D0E8E8C5 /* Pods-MotiveticaUITests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -555,22 +584,20 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MotiveticaTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MotiveticaUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-MotiveticaTests/Pods-MotiveticaTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-MotiveticaUITests/Pods-MotiveticaUITests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MotiveticaTests;
+				PRODUCT_NAME = Pods_MotiveticaUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -617,46 +644,9 @@
 			};
 			name = Release;
 		};
-		B942341757C1920A25955ED558774F6E /* Release */ = {
+		C7B5654B3FE6FCAF71E6066ED2D573C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6021E2045D0B6598BCC1D453D0E8E8C5 /* Pods-MotiveticaUITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MotiveticaUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-MotiveticaUITests/Pods-MotiveticaUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MotiveticaUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CB5BA881F9EE2B0805850CE18976BEF3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56633B6341AD8866675021D3C67E825A /* Pods-Motivetica.debug.xcconfig */;
+			baseConfigurationReference = 4EF875AEBBE00794A1729A2A48EA9AAE /* Pods-MotiveticaUITests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -669,22 +659,20 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Motivetica/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MotiveticaUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-Motivetica/Pods-Motivetica.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-MotiveticaUITests/Pods-MotiveticaUITests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Motivetica;
+				PRODUCT_NAME = Pods_MotiveticaUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -706,8 +694,8 @@
 		3C36F4452260155265106D176AAF2410 /* Build configuration list for PBXNativeTarget "Pods-MotiveticaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				001C1FD35FEAEFF943CEDEFF83F9ECD1 /* Debug */,
-				B942341757C1920A25955ED558774F6E /* Release */,
+				C7B5654B3FE6FCAF71E6066ED2D573C8 /* Debug */,
+				79795F309AD15CB46258133FCC882C5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -715,8 +703,8 @@
 		8A027B475356AD42D25BC60A24C826CF /* Build configuration list for PBXNativeTarget "Pods-MotiveticaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16D61E3183D2D30134BAEFE8F3874066 /* Debug */,
-				796933948F04882A43A857A8F67D9953 /* Release */,
+				5286F5AF2A8FADC77C4F3335B05E272E /* Debug */,
+				0F71DC92A08B224B745DAB57A7CAB5D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -724,8 +712,8 @@
 		F4E5AE39B94F0A167A9C8482F8C70A1F /* Build configuration list for PBXNativeTarget "Pods-Motivetica" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB5BA881F9EE2B0805850CE18976BEF3 /* Debug */,
-				0C72595F4DA161CA1B0A2D4C12C2F6AD /* Release */,
+				57CEF7BC2ACE8A0D1F571626C4941BD0 /* Debug */,
+				18326AB82E873AE87B0066B5D6C00706 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

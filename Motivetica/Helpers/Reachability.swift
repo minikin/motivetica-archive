@@ -2,7 +2,7 @@
 //  Reachability.swift
 //  Motivetica
 //
-//  Created by Sasha Minikin on 1/8/17.
+//  Created by Sasha Prokhorenko on 1/8/17.
 //  Copyright © 2017 Sasha Prokhorenko. All rights reserved.
 //
 
