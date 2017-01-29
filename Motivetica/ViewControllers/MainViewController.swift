@@ -13,10 +13,7 @@ class MainViewController: UIViewController {
   
   var reachability: Reachability? = Reachability.networkReachabilityForInternetConnection()
   let webservice = Webservice()
-  
-//  var allMoti: Resource<[Motivation]> = try! Resource (
-//    url: URL(string: "https://motivetica.com/parse/classes/Motivation")!,
-//    parseElement: Motivation.init)
+
   
   var allMotivations: Resource<[Motivation]> = try! Resource(
     url: URL(string: "https://motivetica.com/parse/classes/Motivation")!,
