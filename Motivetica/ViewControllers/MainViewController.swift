@@ -30,8 +30,7 @@ class MainViewController: UIViewController {
       NotificationCenter.default.addObserver(self, selector: #selector(reachabilityDidChange(_:)), name: NSNotification.Name(rawValue: ReachabilityDidChangeNotificationName), object: nil)
       _ = reachability?.startNotifier()
       
-      
-    
+          
     }
 
     deinit {
