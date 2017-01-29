@@ -12,7 +12,6 @@
 		CE30D2D81E355F7500419591 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30D2D71E355F7500419591 /* Resource.swift */; };
 		CE599FBD1DD28F44003F1343 /* GothaProBol.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE599FBC1DD28F44003F1343 /* GothaProBol.otf */; };
 		CE85E91C1E356819007FF1CE /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85E91B1E356819007FF1CE /* Webservice.swift */; };
-		CE85E91E1E356EB3007FF1CE /* CachedWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85E91D1E356EB3007FF1CE /* CachedWebservice.swift */; };
 		CE8916BB1E228997006247B4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8916BA1E228997006247B4 /* Reachability.swift */; };
 		CEA348731DD10E0D00BD1F20 /* MotiveticaKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEA348721DD10E0D00BD1F20 /* MotiveticaKeys.plist */; };
 		CEA348751DD10F6A00BD1F20 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA348741DD10F6A00BD1F20 /* MainViewController.swift */; };
@@ -23,6 +22,8 @@
 		CEB1C89C1DB5819B00710497 /* MotiveticaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1C89B1DB5819B00710497 /* MotiveticaTests.swift */; };
 		CEB1C8A71DB5819B00710497 /* MotiveticaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1C8A61DB5819B00710497 /* MotiveticaUITests.swift */; };
 		CEE729E41E22C69700E3EA05 /* Motivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE729E31E22C69700E3EA05 /* Motivation.swift */; };
+		CEF5BB311E3E20C60026922E /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BB301E3E20C60026922E /* FileHelper.swift */; };
+		CEF5BB351E3E25A10026922E /* MotiveticaEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BB341E3E25A10026922E /* MotiveticaEndPoints.swift */; };
 		ED90CE65EB1C918AD013C6A4 /* Pods_Motivetica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FB9226B7FCF79322E0CF29 /* Pods_Motivetica.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +54,6 @@
 		CE30D2D71E355F7500419591 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		CE599FBC1DD28F44003F1343 /* GothaProBol.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothaProBol.otf; sourceTree = "<group>"; };
 		CE85E91B1E356819007FF1CE /* Webservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
-		CE85E91D1E356EB3007FF1CE /* CachedWebservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedWebservice.swift; sourceTree = "<group>"; };
 		CE8916BA1E228997006247B4 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		CEA348721DD10E0D00BD1F20 /* MotiveticaKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MotiveticaKeys.plist; sourceTree = "<group>"; };
 		CEA348741DD10F6A00BD1F20 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +70,8 @@
 		CEB1C8A61DB5819B00710497 /* MotiveticaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotiveticaUITests.swift; sourceTree = "<group>"; };
 		CEB1C8A81DB5819B00710497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE729E31E22C69700E3EA05 /* Motivation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motivation.swift; sourceTree = "<group>"; };
+		CEF5BB301E3E20C60026922E /* FileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
+		CEF5BB341E3E25A10026922E /* MotiveticaEndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotiveticaEndPoints.swift; sourceTree = "<group>"; };
 		D4534FDD5CD635C978F2F45C /* Pods_MotiveticaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotiveticaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E724DE2017CB271784DC86F3 /* Pods-Motivetica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivetica.release.xcconfig"; path = "Pods/Target Support Files/Pods-Motivetica/Pods-Motivetica.release.xcconfig"; sourceTree = "<group>"; };
 		ECF48419B1D2E26106F6E76D /* Pods-MotiveticaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotiveticaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotiveticaUITests/Pods-MotiveticaUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,7 +133,7 @@
 			children = (
 				CE30D2D71E355F7500419591 /* Resource.swift */,
 				CE85E91B1E356819007FF1CE /* Webservice.swift */,
-				CE85E91D1E356EB3007FF1CE /* CachedWebservice.swift */,
+				CEF5BB341E3E25A10026922E /* MotiveticaEndPoints.swift */,
 			);
 			path = DataProviders;
 			sourceTree = "<group>";
@@ -222,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				CE8916BA1E228997006247B4 /* Reachability.swift */,
+				CEF5BB301E3E20C60026922E /* FileHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -588,10 +591,11 @@
 			files = (
 				CEA348751DD10F6A00BD1F20 /* MainViewController.swift in Sources */,
 				CEE729E41E22C69700E3EA05 /* Motivation.swift in Sources */,
-				CE85E91E1E356EB3007FF1CE /* CachedWebservice.swift in Sources */,
 				CE85E91C1E356819007FF1CE /* Webservice.swift in Sources */,
+				CEF5BB351E3E25A10026922E /* MotiveticaEndPoints.swift in Sources */,
 				CEB1C8871DB5819B00710497 /* AppDelegate.swift in Sources */,
 				CE30D2D81E355F7500419591 /* Resource.swift in Sources */,
+				CEF5BB311E3E20C60026922E /* FileHelper.swift in Sources */,
 				CE8916BB1E228997006247B4 /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -754,6 +758,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Motivetica/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.minikin.Motivetica;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -774,6 +779,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Motivetica/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.minikin.Motivetica;
 				PRODUCT_NAME = "$(TARGET_NAME)";

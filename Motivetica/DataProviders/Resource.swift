@@ -64,20 +64,33 @@ extension Resource {
 
 
 extension Resource where A: RangeReplaceableCollection {
+  
+  public init(url: URL, method: HttpMethod<Any> = .get,  parseKey: String, parseElement: @escaping (JSONDictionary) -> A.Iterator.Element?) throws {
+    self = try Resource(url: url, method: method, parseJSON: { json in
+      //print("Data form server:", json)
+      guard let jsonDicts = json as? JSONDictionary,
+      let motivationsJSON = jsonDicts[parseKey] as? [JSONDictionary] else {
+        print("Something whent wrong with json casting")
+        return nil
+      }
+      
+      let result = motivationsJSON.flatMap(parseElement)
+      return A(result)
+    })
+  }
+  
   public init(url: URL, method: HttpMethod<Any> = .get, parseElement: @escaping (JSONDictionary) -> A.Iterator.Element?) throws {
     self = try Resource(url: url, method: method, parseJSON: { json in
-      guard let jsonDicts = json as? [JSONDictionary] else { return nil }
+      //print("Data form server:", json)
+      guard let jsonDicts = json as? [JSONDictionary] else {
+          print("Something whent wrong with json casting")
+          return nil
+      }
       let result = jsonDicts.flatMap(parseElement)
       return A(result)
     })
   }
+  
 }
-
-extension Resource {
-  var cacheKey: String {
-    return "cache" + String(url.hashValue) // TODO use sha1
-  }
-}
-
 
 

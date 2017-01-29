@@ -43,18 +43,17 @@ func logError<A>(_ result:Result<A>){
 
 var session: URLSession {
   let config = URLSessionConfiguration.default
+  config.httpAdditionalHeaders =  readKeysFrom("MotiveticaKeys")
   return URLSession(configuration: config)
 }
 
 public final class Webservice {
   public init() { }
-  
+
   /// Loads a resource. The completion handler is always called on the main queue.
   public func load<A>(_ resource: Resource<A>, completion: @escaping (Result<A>) -> () = logError) {
     session.dataTask(with: resource.url, completionHandler: { data, response, _ in
-      print(response)
       let result: Result<A>
-      dump(data)
       if let httpResponse = response as? HTTPURLResponse , httpResponse.statusCode == 401 {
         result = Result.error(WebserviceError.notAuthenticated)
       } else {
