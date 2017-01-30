@@ -22,21 +22,95 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFd-uz-gTg">
-                                <rect key="frame" x="164" y="318" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAB-sj-xAn" userLabel="Motivetica">
+                                <rect key="frame" x="125" y="70" width="125" height="162"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="FcF-qL-vi3"/>
+                                    <constraint firstAttribute="height" constant="162" id="q2R-NJ-Dul"/>
+                                </constraints>
+                                <state key="normal" image="Logo2"/>
                                 <connections>
-                                    <segue destination="VOS-ud-W7E" kind="show" identifier="toMotivations" id="7II-4l-gfQ"/>
+                                    <segue destination="TR9-Qs-BHx" kind="presentation" identifier="toAbout" id="bW1-cs-rKb"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PSA-Lf-Om7" userLabel="ofTheDay">
+                                <rect key="frame" x="166" y="292" width="153" height="118"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="153" id="m8c-4w-yMS"/>
+                                    <constraint firstAttribute="height" constant="118" id="yPQ-eq-0Pl"/>
+                                </constraints>
+                                <state key="normal" image="wOfD"/>
+                                <connections>
+                                    <segue destination="VOS-ud-W7E" kind="show" id="7MB-8y-17D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXC-9f-TsI" userLabel="yOW">
+                                <rect key="frame" x="40" y="448" width="152" height="119"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="152" id="T9L-os-4sB"/>
+                                    <constraint firstAttribute="height" constant="119" id="kfN-FD-dTj"/>
+                                </constraints>
+                                <state key="normal" image="yOw"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PSA-Lf-Om7" firstAttribute="top" secondItem="sAB-sj-xAn" secondAttribute="bottom" constant="60" id="3nm-wx-abc"/>
+                            <constraint firstItem="sAB-sj-xAn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="IeN-DE-px7"/>
+                            <constraint firstItem="bXC-9f-TsI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="VIy-62-nxN"/>
+                            <constraint firstItem="sAB-sj-xAn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f3O-aV-J4Y"/>
+                            <constraint firstAttribute="trailing" secondItem="PSA-Lf-Om7" secondAttribute="trailing" constant="56" id="hb1-Gv-4KP"/>
+                            <constraint firstItem="bXC-9f-TsI" firstAttribute="top" secondItem="PSA-Lf-Om7" secondAttribute="bottom" constant="38" id="igv-iY-4LO"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-210.40000000000001" y="59.820089955022496"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="qSW-RZ-Xbc">
+            <objects>
+                <viewController id="TR9-Qs-BHx" customClass="AboutViewController" customModule="Motivetica" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bxD-rU-FcT"/>
+                        <viewControllerLayoutGuide type="bottom" id="NwP-2W-hZO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eka-4i-g3x">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="46D-85-Q4I">
+                                <rect key="frame" x="158.5" y="323" width="58" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yUC-Qg-lbF">
+                                <rect key="frame" x="177.5" y="627" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="iYh-Pp-lTW"/>
+                                    <constraint firstAttribute="width" constant="20" id="uWR-oA-V10"/>
+                                </constraints>
+                                <state key="normal" image="close"/>
+                                <connections>
+                                    <segue destination="ogl-ez-igQ" kind="unwind" unwindAction="unwindFromAbout:" id="tcU-bu-YGp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yUC-Qg-lbF" firstAttribute="centerX" secondItem="eka-4i-g3x" secondAttribute="centerX" id="961-Mj-Shp"/>
+                            <constraint firstItem="46D-85-Q4I" firstAttribute="centerY" secondItem="eka-4i-g3x" secondAttribute="centerY" id="Oeu-KQ-UcV"/>
+                            <constraint firstItem="46D-85-Q4I" firstAttribute="centerX" secondItem="eka-4i-g3x" secondAttribute="centerX" id="Rse-EV-OOx"/>
+                            <constraint firstAttribute="bottom" secondItem="yUC-Qg-lbF" secondAttribute="bottom" constant="20" symbolic="YES" id="THe-ej-sMo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ffT-bJ-U8s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ogl-ez-igQ" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-210" y="-740"/>
         </scene>
         <!--Motivations View Controller-->
         <scene sceneID="BWY-hH-lhw">
@@ -102,11 +176,14 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SPc-GP-hpI" userLabel="Footer">
                                                     <rect key="frame" x="8" y="589" width="356" height="45"/>
                                                     <subviews>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5E-M4-uuk">
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5E-M4-uuk" userLabel="Back">
                                                             <rect key="frame" x="0.0" y="0.0" width="45" height="45"/>
                                                             <state key="normal" image="BackButton"/>
+                                                            <connections>
+                                                                <segue destination="98s-tG-fqq" kind="unwind" unwindAction="unwindFromMotivations:" id="v3Z-SC-Ole"/>
+                                                            </connections>
                                                         </button>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOk-7W-Q8m">
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOk-7W-Q8m" userLabel="Menu">
                                                             <rect key="frame" x="333" y="9" width="23" height="27"/>
                                                             <state key="normal" image="UpArrowsBlack"/>
                                                         </button>
@@ -194,17 +271,22 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7bC-3I-dea" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="98s-tG-fqq" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="578.39999999999998" y="58.920539730134934"/>
+            <point key="canvasLocation" x="761" y="81"/>
         </scene>
     </scenes>
     <resources>
         <image name="AllignmentCenterSmall" width="23" height="18"/>
         <image name="BackButton" width="45" height="45"/>
+        <image name="Logo2" width="125" height="161"/>
         <image name="UpArrowsBlack" width="23" height="27"/>
         <image name="arrow" width="45" height="16"/>
         <image name="arrowBack" width="45" height="16"/>
+        <image name="close" width="26" height="26"/>
         <image name="colorBlack" width="12" height="12"/>
         <image name="dot" width="11" height="11"/>
+        <image name="wOfD" width="153" height="118"/>
+        <image name="yOw" width="152" height="119"/>
     </resources>
 </document>

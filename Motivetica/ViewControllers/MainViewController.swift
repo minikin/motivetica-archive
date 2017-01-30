@@ -56,5 +56,20 @@ class MainViewController: UIViewController {
     func reachabilityDidChange(_ notification: Notification) {
       checkReachability()
     }
+  
+  
+  @IBAction func unwindFromAbout(_ sender: UIStoryboardSegue){
+    
+    print("Back from About")
+    
+  }
+  
+  @IBAction func unwindFromMotivations(_ sender: UIStoryboardSegue){
+    
+    print("Back from Motivations")
+    
+  }
+  
+  
 }
 

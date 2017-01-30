@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var window: UIWindow?
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+      UIApplication.shared.isStatusBarHidden = false
     // Override point for customization after application launch.
 		Fabric.with([Crashlytics.self])
     
