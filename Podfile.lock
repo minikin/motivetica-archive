@@ -2,15 +2,27 @@ PODS:
   - Crashlytics (3.8.3):
     - Fabric (~> 1.6.3)
   - Fabric (1.6.11)
+  - GSMessages (1.3.2)
+  - Hue (2.0.1)
+  - NYAlertViewController (1.3.0)
+  - SCLAlertView (0.7.0)
 
 DEPENDENCIES:
   - Crashlytics
   - Fabric
+  - GSMessages
+  - Hue
+  - NYAlertViewController
+  - SCLAlertView
 
 SPEC CHECKSUMS:
   Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
   Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  GSMessages: 73bddd1a1276ffb8832347112f8d9f48770a6bc0
+  Hue: 354caec055fdc9d38b5ef33ca2e7224721843baf
+  NYAlertViewController: b93f82e2c1fc6d5e9485512ddbe7b481f463a074
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
 
-PODFILE CHECKSUM: a96bed52a340868fb736c9367a27c87914191419
+PODFILE CHECKSUM: 44e6c7582ea14031e936c95e5357f72ab91e8e3e
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.0

@@ -9,11 +9,6 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Bebas_Neue.ttf">
-            <string>AA-BebasNeue</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -75,11 +70,7 @@
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Li7-ZJ-olE">
                                                     <rect key="frame" x="20" y="35" width="332" height="507"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <string key="text">WORK
-HARD
-STAY 
-HUMBLE</string>
-                                                    <fontDescription key="fontDescription" name="AA-BebasNeue" family="AA Bebas Neue" pointSize="125"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="72"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K1w-dY-ltL" userLabel="navigation">
@@ -129,11 +120,11 @@ HUMBLE</string>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Font Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jgy-3D-SYU">
-                                                            <rect key="frame" x="161" y="5" width="97" height="18"/>
+                                                            <rect key="frame" x="161" y="5" width="97" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="97" id="nMJ-AE-bmT"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" name="AA-BebasNeue" family="AA Bebas Neue" pointSize="18"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -142,7 +133,7 @@ HUMBLE</string>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="h1r-L4-bRb"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" name="AA-BebasNeue" family="AA Bebas Neue" pointSize="13"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>

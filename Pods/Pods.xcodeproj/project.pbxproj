@@ -7,67 +7,169 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21B538A0F3D7401309F5294E2C86C15F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		089CA1F406B63442DC59087196138D3C /* GSMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABBCF1C4FB2DDD5FA852E44CC7743B1 /* GSMessage.swift */; };
+		0ABB6545B94CF8BE05A52D581F70C873 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907C058B939E5A28A779ACC40C5B52FC /* SCLAlertView.swift */; };
+		0C7FBA691AA02D2FA13B3D8776989F0F /* NYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D8112B1B28E5F24CE35F67357D8A0B /* NYAlertView.m */; };
+		15E0DFEFDE0A2ECB2B385FA6AC15182A /* NYAlertViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F3F9E60F5F23AF25267623426D7A77 /* NYAlertViewController-dummy.m */; };
+		20070C9501DA782A1D5EDCB4F75AEDE2 /* Hue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1FD9871D2D816B5E37C995DC0E847A /* Hue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21B538A0F3D7401309F5294E2C86C15F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		31F2FF31B0ABC53796AC47564C488C49 /* NYAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 397216536E1AA12A690BCF9994BD8A3C /* NYAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CE4F56D8099B52FD0B394E8F9E0052D /* Pods-MotiveticaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFAF83EE301FF752A0FE028269E3BA48 /* Pods-MotiveticaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6400F17D6627793C90DC5A0DE6D301C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		49CE810EBBA4AC42D45971F93EBC296F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		5B42048C3ADC59AC19E1C168A5B0561C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		5D58C30F3CEA4146D098747E65515463 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58476B9B36795245D13C667D659704AB /* SCLExtensions.swift */; };
+		6400F17D6627793C90DC5A0DE6D301C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		70CBCB67007D356F14B8EC15118BA9E3 /* Hue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 578E2ACA91CA94E351A4673FB2507A1C /* Hue-dummy.m */; };
+		7797E52B21C265ACD7C505D6632BCD64 /* GSMessages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9066B24F982188E8DB958C9CDC0FBB1 /* GSMessages-dummy.m */; };
+		797EE27A0319ACFD729F18834624B76C /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EF248A5FFE4077051C0733311F932F /* SCLAlertView-dummy.m */; };
+		7C0671AF55BB45E306866809BE014ABA /* NYAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F081F9E38FE0E33B3BA42A4FF8444ADB /* NYAlertViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83790D4473D3F8965A7705C0EE1ADFC6 /* UIColor+Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655DFEB105A6A830C46E7A6CDF23071B /* UIColor+Hue.swift */; };
 		83B9487E8A462A03B6EC005873FB083A /* Pods-MotiveticaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A794C58AF398450EECC4FBAF43284B35 /* Pods-MotiveticaUITests-dummy.m */; };
-		8E68285FFCC62474BB53B93E73A1A2AE /* Pods-Motivetica-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F6D5714514D5EE74D1103EC327568D /* Pods-Motivetica-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88751B0F770C1C1A5985599056BA1058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		8AF8BF26CCCA67194B977AA583A949E3 /* NYAlertViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B2AA4BCC1E937FC370A58EA03C52B8 /* NYAlertViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		962BFEAED18B8A8B4F2A787D2CFBC378 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		96976E172CB308749824DE26F2AAC2AE /* GSMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 7227727D240B5B6A8452D0FF573C46FA /* GSMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A76A4B1CE8BFCF24779CB19882776729 /* Pods-MotiveticaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A8793BDCE94C0F8F8FF1007D9BF82E /* Pods-MotiveticaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B841329527030CC65C0A84F7936ED727 /* Pods-Motivetica-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBC97C5C17535E102F069F9CD5DEC7 /* Pods-Motivetica-dummy.m */; };
+		BA215FEB800D0782740C48D09AF5C4FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		BFEADFDCA83B6B81CB4465252AA9117B /* Pods-Motivetica-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBC97C5C17535E102F069F9CD5DEC7 /* Pods-Motivetica-dummy.m */; };
+		C61B470D7E8CAA400031E64F32828757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		C6667C4BCA678B0FC0C8240A2AE7CCF2 /* Pods-MotiveticaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C883A79F8ABD72395E91196262EC98CB /* Pods-MotiveticaTests-dummy.m */; };
-		CBA58DE55EAC49B406FE8A035DD1796E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CF69AEF1EC869FCF20FDF78A1740EDCA /* Pods-Motivetica-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F6D5714514D5EE74D1103EC327568D /* Pods-Motivetica-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68303665D548EB8424C2FD37BF52086 /* NYAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8181FBDC95B4EC53145D82444CA679 /* NYAlertViewController.m */; };
+		DB918F9684BC977E07DE8C826B282892 /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA837F213C167C15F9503C7D2C969F3 /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5D6F7BEDEF50F8A0AA261FBD89E4FB8 /* GSMessages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD6FD706DD9CF0AA9A1EE295C1831FC /* GSMessages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F85030977A6D1BAC697812B41A5905C7 /* UIImage+Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1941046361BDF348CBFEF96FBDAFBE33 /* UIImage+Hue.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C029490785685D8D611E9304AC48863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2542602E50EDF091ADB18B4688DF34F;
+			remoteInfo = Hue;
+		};
+		9A190978026AB1EE888E369269FECD95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF64AE46D5032A024E111A2A871B61A;
+			remoteInfo = NYAlertViewController;
+		};
+		BF656D15F3BC3B872351DD60D98E4924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B9DD6ADFF1867EB71F85F2DF77B9E23;
+			remoteInfo = SCLAlertView;
+		};
+		FC606E08CA3A7229C4255BA9A239C8C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80A1AAD476BC6D0D87976DE91984E49D;
+			remoteInfo = GSMessages;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		052C176EFA99DA63AF10F21821FFB640 /* Pods-MotiveticaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MotiveticaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		05F45A30F7B0C385CAA0072BC45CCC36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		066CF2AE21A41CD69F360640E8D0EFA2 /* Hue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hue-prefix.pch"; sourceTree = "<group>"; };
+		07E0149A724B8A2B6365F55ABAD06168 /* NYAlertViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NYAlertViewController.xcconfig; sourceTree = "<group>"; };
 		08AFBC8C2AEC0E9A652685D9247CA8B8 /* Pods-MotiveticaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MotiveticaUITests.modulemap"; sourceTree = "<group>"; };
-		0BDA6DB1DFC69B672A27D154BAC688C8 /* Pods_Motivetica.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Motivetica.framework; path = "Pods-Motivetica.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B3BE8286CB6702814AA3739A91CAE63 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		0B7DA84686FBDBC56920951116D18D33 /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
+		0BD38620F79FD10DEE0A5F6DB929C616 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E68712B46CB8655189AF33DAF39C235 /* Pods-Motivetica-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Motivetica-resources.sh"; sourceTree = "<group>"; };
 		0FAA313CCC471B2C25F16143533457BA /* Pods-Motivetica-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Motivetica-acknowledgements.markdown"; sourceTree = "<group>"; };
+		11D8112B1B28E5F24CE35F67357D8A0B /* NYAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYAlertView.m; path = NYAlertViewController/NYAlertView.m; sourceTree = "<group>"; };
 		130226C90CE0458306F781B9B176324C /* Pods-Motivetica-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Motivetica-acknowledgements.plist"; sourceTree = "<group>"; };
+		160CA0322649EAF878DA864CBCB80039 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16D0A9CF2B03892423CB77D9C30CDCB3 /* Pods-Motivetica-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Motivetica-frameworks.sh"; sourceTree = "<group>"; };
-		1E4D295192B72C25C6D803F53CF8EDBB /* Pods_MotiveticaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MotiveticaUITests.framework; path = "Pods-MotiveticaUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		200C81134ACADBF4B01AF7F1C51DE9EC /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		1941046361BDF348CBFEF96FBDAFBE33 /* UIImage+Hue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Hue.swift"; path = "Source/iOS/UIImage+Hue.swift"; sourceTree = "<group>"; };
 		20C9A1C61C6A23D874AA282AEFCEBDB5 /* Pods-Motivetica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Motivetica.release.xcconfig"; sourceTree = "<group>"; };
+		23A76B8A1F3891EA3F5639CF247342F6 /* NYAlertViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYAlertViewController-prefix.pch"; sourceTree = "<group>"; };
+		2463EBB54BBC1A7B7F290C5874AD6553 /* Hue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Hue.modulemap; sourceTree = "<group>"; };
 		2486D35DF4CFA011E2B4FEB8B5467736 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29A8793BDCE94C0F8F8FF1007D9BF82E /* Pods-MotiveticaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MotiveticaTests-umbrella.h"; sourceTree = "<group>"; };
-		29DE526E5B1D3B37719460B12B391B91 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
 		3229D63B109DCB2C5492D415D95D4673 /* Pods-MotiveticaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotiveticaTests.release.xcconfig"; sourceTree = "<group>"; };
-		494C290BDBEAED23BA5743A3CE2FA0D1 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		39161B6AE0BB3F65D6AB5642DF893EC3 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+		397216536E1AA12A690BCF9994BD8A3C /* NYAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYAlertView.h; path = NYAlertViewController/NYAlertView.h; sourceTree = "<group>"; };
+		43ED99B0FA0C1820ECEBE1B5E4E15866 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		4560C27C5741D6D2593FEB281B547814 /* Pods_MotiveticaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MotiveticaUITests.framework; path = "Pods-MotiveticaUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7F803C9634B916C67696EE00315D5C /* Pods-MotiveticaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MotiveticaTests-resources.sh"; sourceTree = "<group>"; };
 		4CB2F3C8F239E357619B03D374450BA8 /* Pods-MotiveticaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MotiveticaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4DFBC97C5C17535E102F069F9CD5DEC7 /* Pods-Motivetica-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Motivetica-dummy.m"; sourceTree = "<group>"; };
 		4EF875AEBBE00794A1729A2A48EA9AAE /* Pods-MotiveticaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotiveticaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		56633B6341AD8866675021D3C67E825A /* Pods-Motivetica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Motivetica.debug.xcconfig"; sourceTree = "<group>"; };
-		5B0AC4555A08701A9F1760172610E0AF /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
+		578E2ACA91CA94E351A4673FB2507A1C /* Hue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hue-dummy.m"; sourceTree = "<group>"; };
+		58476B9B36795245D13C667D659704AB /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		5BD6FD706DD9CF0AA9A1EE295C1831FC /* GSMessages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSMessages-umbrella.h"; sourceTree = "<group>"; };
+		5E8565C5D6A34B725BDE4AB060B05716 /* Pods_MotiveticaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MotiveticaTests.framework; path = "Pods-MotiveticaTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA837F213C167C15F9503C7D2C969F3 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
 		6021E2045D0B6598BCC1D453D0E8E8C5 /* Pods-MotiveticaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotiveticaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		655DFEB105A6A830C46E7A6CDF23071B /* UIColor+Hue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Hue.swift"; path = "Source/iOS/UIColor+Hue.swift"; sourceTree = "<group>"; };
+		694406BD98B9A5474EACDE1EBD808B88 /* NYAlertViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NYAlertViewController.modulemap; sourceTree = "<group>"; };
 		6BF6E7B2CD8007C3F990ED75329CED9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DF80EBF4659C5550DBA533BE9D7F3EE /* Pods-MotiveticaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MotiveticaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F1FD9871D2D816B5E37C995DC0E847A /* Hue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hue-umbrella.h"; sourceTree = "<group>"; };
+		7227727D240B5B6A8452D0FF573C46FA /* GSMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GSMessages.h; path = GSMessages/GSMessages.h; sourceTree = "<group>"; };
 		7545AF5DC7136130E91DCC686FD675C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82981FB005A4ED4C556297735FD4ACED /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
-		856A7EF81F93DD33C78FA7140067110C /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		81EC3291214A7F43BBB2D1A67CC24D18 /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCLAlertView.framework; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		858BE165D13346ECF06BE41FF6241890 /* Pods-MotiveticaUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MotiveticaUITests-resources.sh"; sourceTree = "<group>"; };
-		8DB331D62E03B90D571016097AB0A7E0 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
-		92972CC1C216B42A9AB4B6EABB27FC16 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		885FC0D0D34D86D71347511301B338D5 /* GSMessages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GSMessages.modulemap; sourceTree = "<group>"; };
+		907C058B939E5A28A779ACC40C5B52FC /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		960F2999D918924BD99CEDB6F7CE95DF /* GSMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GSMessages.framework; path = GSMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE8FF409BEDD09682AD8173D85B9865 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
 		9F806660ADF9EB5C86BDEBB3E87CA8EA /* Pods-MotiveticaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MotiveticaTests-frameworks.sh"; sourceTree = "<group>"; };
-		A61E08527EFC3DBEDD4BFA0B5C45104C /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		A3F3F9E60F5F23AF25267623426D7A77 /* NYAlertViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NYAlertViewController-dummy.m"; sourceTree = "<group>"; };
 		A794C58AF398450EECC4FBAF43284B35 /* Pods-MotiveticaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MotiveticaUITests-dummy.m"; sourceTree = "<group>"; };
+		A81FE5B7138B2F41D06230F7D2B5F4A9 /* Pods_Motivetica.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Motivetica.framework; path = "Pods-Motivetica.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABBCF1C4FB2DDD5FA852E44CC7743B1 /* GSMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GSMessage.swift; path = GSMessages/GSMessage.swift; sourceTree = "<group>"; };
+		AF21C38264D40A23A62D03F41A3B5146 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
+		B0D3E84129C98F83797003DA4FD51DCB /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
 		BFAF83EE301FF752A0FE028269E3BA48 /* Pods-MotiveticaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MotiveticaUITests-umbrella.h"; sourceTree = "<group>"; };
+		BFED80B9E329D4520AD05E1283AC0C37 /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		C10A28025F3FDEE814656ECE79DF228A /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
+		C1C31014C6B84D1E81ECF54B6D734AE2 /* GSMessages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSMessages-prefix.pch"; sourceTree = "<group>"; };
 		C2E1E315D0958FB2B7A3560F3D381B66 /* Pods-MotiveticaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotiveticaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3EF248A5FFE4077051C0733311F932F /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
+		C40C9F868A9772E4752D44D525831276 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
+		C5CF212D0473947EB5F64348E2903EE9 /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
 		C6F6D5714514D5EE74D1103EC327568D /* Pods-Motivetica-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Motivetica-umbrella.h"; sourceTree = "<group>"; };
 		C883A79F8ABD72395E91196262EC98CB /* Pods-MotiveticaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MotiveticaTests-dummy.m"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D129E7284B829C3CA35E23CCA4BDD0AE /* Pods_MotiveticaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MotiveticaTests.framework; path = "Pods-MotiveticaTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6C112741EA32A8560BF6D75AC6460B /* NYAlertViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NYAlertViewController.framework; path = NYAlertViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B2AA4BCC1E937FC370A58EA03C52B8 /* NYAlertViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYAlertViewController-umbrella.h"; sourceTree = "<group>"; };
 		D2EE2DDC99282C09832BB1B95046690C /* Pods-MotiveticaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MotiveticaTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DBA48C54AB315A7317F3DD387EF04883 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
-		EAC88243AB9F702F3015F7068842116A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+		D456EC8B3FB7D0E0FB3FD26E6A80AACC /* Hue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hue.xcconfig; sourceTree = "<group>"; };
+		D9066B24F982188E8DB958C9CDC0FBB1 /* GSMessages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GSMessages-dummy.m"; sourceTree = "<group>"; };
+		DA355C09833845CC0228CAF8337138DD /* Hue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hue.framework; path = Hue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8181FBDC95B4EC53145D82444CA679 /* NYAlertViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYAlertViewController.m; path = NYAlertViewController/NYAlertViewController.m; sourceTree = "<group>"; };
 		EDA2668C8EE1E77613DE5B1695D8BA8C /* Pods-MotiveticaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MotiveticaUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F081F9E38FE0E33B3BA42A4FF8444ADB /* NYAlertViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYAlertViewController.h; path = NYAlertViewController/NYAlertViewController.h; sourceTree = "<group>"; };
 		F22AF9A658A8A675A4306B99E5079486 /* Pods-Motivetica.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Motivetica.modulemap"; sourceTree = "<group>"; };
 		F6F1347BE643571C76564EA1A26489AF /* Pods-MotiveticaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MotiveticaTests.modulemap"; sourceTree = "<group>"; };
+		F7A3736D137B34E0D7FE75B2890754FF /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		F89BAC668139E3698A953ED60AB8BEDD /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
+		FBC1DF61C640E2B3233972423C6FF9CB /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
+		FC5BC09266BDBB820D096FCC954C14A2 /* GSMessages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSMessages.xcconfig; sourceTree = "<group>"; };
+		FF004122704AD1F52ADA7CEFC163E75F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0A325AAFE109272B85689483EA39F9B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B42048C3ADC59AC19E1C168A5B0561C /* Foundation.framework in Frameworks */,
+				BA215FEB800D0782740C48D09AF5C4FA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		231002D6031F9BDD3C54A80A0DF5725C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,11 +178,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23D0F55879FFBC17A1EFEA552ABA8895 /* Frameworks */ = {
+		345AC45CCE17B8186CBFA3EC8968B25B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBA58DE55EAC49B406FE8A035DD1796E /* Foundation.framework in Frameworks */,
+				49CE810EBBA4AC42D45971F93EBC296F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8CAFBE04F5857F93C3F92248B2B7BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61B470D7E8CAA400031E64F32828757 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,38 +202,128 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B01091EAE42948E15359B9AD476B5438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962BFEAED18B8A8B4F2A787D2CFBC378 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4E12248077824BC31F6FD20911FA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88751B0F770C1C1A5985599056BA1058 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1DECF7299F0875E9BCB9492390207331 /* Pods */ = {
+		0B0F7ACC2538FC8A5C51E8DD421D041B /* Hue */ = {
 			isa = PBXGroup;
 			children = (
-				26F9D6AB1F30C869A5F58AF8EF5A99C8 /* Crashlytics */,
-				D479A0301687E2A8F6F67D392B8551D2 /* Fabric */,
+				655DFEB105A6A830C46E7A6CDF23071B /* UIColor+Hue.swift */,
+				1941046361BDF348CBFEF96FBDAFBE33 /* UIImage+Hue.swift */,
+				2D7272F57C08E78420FD019974982504 /* Support Files */,
+			);
+			name = Hue;
+			path = Hue;
+			sourceTree = "<group>";
+		};
+		2D7272F57C08E78420FD019974982504 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2463EBB54BBC1A7B7F290C5874AD6553 /* Hue.modulemap */,
+				D456EC8B3FB7D0E0FB3FD26E6A80AACC /* Hue.xcconfig */,
+				578E2ACA91CA94E351A4673FB2507A1C /* Hue-dummy.m */,
+				066CF2AE21A41CD69F360640E8D0EFA2 /* Hue-prefix.pch */,
+				6F1FD9871D2D816B5E37C995DC0E847A /* Hue-umbrella.h */,
+				160CA0322649EAF878DA864CBCB80039 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hue";
+			sourceTree = "<group>";
+		};
+		2F54DFCAA60345FC38688189B9F430D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AD29D7BFCB2E0E45118E02BD131FC09 /* Crashlytics */,
+				85B4D8035F9686FFD06C5DFCD3928631 /* Fabric */,
+				3FC4AD328BE1481E2C9EB7C38EFD6DD0 /* GSMessages */,
+				0B0F7ACC2538FC8A5C51E8DD421D041B /* Hue */,
+				974DFF2E2E1AF131611CD19E912DDE7A /* NYAlertViewController */,
+				BDFD253D55C3E7B5191BDAE1E6D1EAEC /* SCLAlertView */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		26F9D6AB1F30C869A5F58AF8EF5A99C8 /* Crashlytics */ = {
+		36EE0B70578A7FFE8F19188E576ED2F9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B0AC4555A08701A9F1760172610E0AF /* ANSCompatibility.h */,
-				A61E08527EFC3DBEDD4BFA0B5C45104C /* Answers.h */,
-				8DB331D62E03B90D571016097AB0A7E0 /* CLSAttributes.h */,
-				29DE526E5B1D3B37719460B12B391B91 /* CLSLogging.h */,
-				856A7EF81F93DD33C78FA7140067110C /* CLSReport.h */,
-				DBA48C54AB315A7317F3DD387EF04883 /* CLSStackFrame.h */,
-				200C81134ACADBF4B01AF7F1C51DE9EC /* Crashlytics.h */,
-				E268B07786115FF5D5DFF396150E695F /* Frameworks */,
+				885FC0D0D34D86D71347511301B338D5 /* GSMessages.modulemap */,
+				FC5BC09266BDBB820D096FCC954C14A2 /* GSMessages.xcconfig */,
+				D9066B24F982188E8DB958C9CDC0FBB1 /* GSMessages-dummy.m */,
+				C1C31014C6B84D1E81ECF54B6D734AE2 /* GSMessages-prefix.pch */,
+				5BD6FD706DD9CF0AA9A1EE295C1831FC /* GSMessages-umbrella.h */,
+				0BD38620F79FD10DEE0A5F6DB929C616 /* Info.plist */,
 			);
-			name = Crashlytics;
-			path = Crashlytics;
+			name = "Support Files";
+			path = "../Target Support Files/GSMessages";
 			sourceTree = "<group>";
 		};
-		2DDA681774534EB985F60A3418A4C908 /* Frameworks */ = {
+		3FC4AD328BE1481E2C9EB7C38EFD6DD0 /* GSMessages */ = {
 			isa = PBXGroup;
 			children = (
-				92972CC1C216B42A9AB4B6EABB27FC16 /* Fabric.framework */,
+				AABBCF1C4FB2DDD5FA852E44CC7743B1 /* GSMessage.swift */,
+				7227727D240B5B6A8452D0FF573C46FA /* GSMessages.h */,
+				36EE0B70578A7FFE8F19188E576ED2F9 /* Support Files */,
+			);
+			name = GSMessages;
+			path = GSMessages;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A227E004B7A4A44B43B2D442C24AB93 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF004122704AD1F52ADA7CEFC163E75F /* Info.plist */,
+				694406BD98B9A5474EACDE1EBD808B88 /* NYAlertViewController.modulemap */,
+				07E0149A724B8A2B6365F55ABAD06168 /* NYAlertViewController.xcconfig */,
+				A3F3F9E60F5F23AF25267623426D7A77 /* NYAlertViewController-dummy.m */,
+				23A76B8A1F3891EA3F5639CF247342F6 /* NYAlertViewController-prefix.pch */,
+				D2B2AA4BCC1E937FC370A58EA03C52B8 /* NYAlertViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NYAlertViewController";
+			sourceTree = "<group>";
+		};
+		4C591E0AA8CC5E97446BAEB7AF59A109 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				960F2999D918924BD99CEDB6F7CE95DF /* GSMessages.framework */,
+				DA355C09833845CC0228CAF8337138DD /* Hue.framework */,
+				CD6C112741EA32A8560BF6D75AC6460B /* NYAlertViewController.framework */,
+				A81FE5B7138B2F41D06230F7D2B5F4A9 /* Pods_Motivetica.framework */,
+				5E8565C5D6A34B725BDE4AB060B05716 /* Pods_MotiveticaTests.framework */,
+				4560C27C5741D6D2593FEB281B547814 /* Pods_MotiveticaUITests.framework */,
+				81EC3291214A7F43BBB2D1A67CC24D18 /* SCLAlertView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F5A8966A963FA0AC7EF0E64490C9E6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39161B6AE0BB3F65D6AB5642DF893EC3 /* Crashlytics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -146,23 +346,69 @@
 			path = "Target Support Files/Pods-MotiveticaUITests";
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				1DECF7299F0875E9BCB9492390207331 /* Pods */,
-				B37AF57A503D42708AB1AD9320741B4B /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				2F54DFCAA60345FC38688189B9F430D6 /* Pods */,
+				4C591E0AA8CC5E97446BAEB7AF59A109 /* Products */,
 				ED4F9BC9808B2738DCF2413EC0F00CEC /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7F93CE32EEAB4D39F12037827B2A4305 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05F45A30F7B0C385CAA0072BC45CCC36 /* Info.plist */,
+				F89BAC668139E3698A953ED60AB8BEDD /* SCLAlertView.modulemap */,
+				FBC1DF61C640E2B3233972423C6FF9CB /* SCLAlertView.xcconfig */,
+				C3EF248A5FFE4077051C0733311F932F /* SCLAlertView-dummy.m */,
+				C5CF212D0473947EB5F64348E2903EE9 /* SCLAlertView-prefix.pch */,
+				5FA837F213C167C15F9503C7D2C969F3 /* SCLAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView";
+			sourceTree = "<group>";
+		};
+		85B4D8035F9686FFD06C5DFCD3928631 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				F7A3736D137B34E0D7FE75B2890754FF /* FABAttributes.h */,
+				0B3BE8286CB6702814AA3739A91CAE63 /* Fabric.h */,
+				E1DA02CCE4FF443A345C0CE0451846CE /* Frameworks */,
+			);
+			name = Fabric;
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		8AD29D7BFCB2E0E45118E02BD131FC09 /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				0B7DA84686FBDBC56920951116D18D33 /* ANSCompatibility.h */,
+				B0D3E84129C98F83797003DA4FD51DCB /* Answers.h */,
+				C10A28025F3FDEE814656ECE79DF228A /* CLSAttributes.h */,
+				C40C9F868A9772E4752D44D525831276 /* CLSLogging.h */,
+				BFED80B9E329D4520AD05E1283AC0C37 /* CLSReport.h */,
+				AF21C38264D40A23A62D03F41A3B5146 /* CLSStackFrame.h */,
+				9EE8FF409BEDD09682AD8173D85B9865 /* Crashlytics.h */,
+				6F5A8966A963FA0AC7EF0E64490C9E6C /* Frameworks */,
+			);
+			name = Crashlytics;
+			path = Crashlytics;
+			sourceTree = "<group>";
+		};
+		974DFF2E2E1AF131611CD19E912DDE7A /* NYAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				397216536E1AA12A690BCF9994BD8A3C /* NYAlertView.h */,
+				11D8112B1B28E5F24CE35F67357D8A0B /* NYAlertView.m */,
+				F081F9E38FE0E33B3BA42A4FF8444ADB /* NYAlertViewController.h */,
+				DF8181FBDC95B4EC53145D82444CA679 /* NYAlertViewController.m */,
+				4A227E004B7A4A44B43B2D442C24AB93 /* Support Files */,
+			);
+			name = NYAlertViewController;
+			path = NYAlertViewController;
 			sourceTree = "<group>";
 		};
 		A2F7EB3CB333AA5416AC154677A9945D /* Pods-MotiveticaTests */ = {
@@ -201,41 +447,32 @@
 			path = "Target Support Files/Pods-Motivetica";
 			sourceTree = "<group>";
 		};
-		B37AF57A503D42708AB1AD9320741B4B /* Products */ = {
+		BDFD253D55C3E7B5191BDAE1E6D1EAEC /* SCLAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				0BDA6DB1DFC69B672A27D154BAC688C8 /* Pods_Motivetica.framework */,
-				D129E7284B829C3CA35E23CCA4BDD0AE /* Pods_MotiveticaTests.framework */,
-				1E4D295192B72C25C6D803F53CF8EDBB /* Pods_MotiveticaUITests.framework */,
+				907C058B939E5A28A779ACC40C5B52FC /* SCLAlertView.swift */,
+				58476B9B36795245D13C667D659704AB /* SCLExtensions.swift */,
+				7F93CE32EEAB4D39F12037827B2A4305 /* Support Files */,
 			);
-			name = Products;
+			name = SCLAlertView;
+			path = SCLAlertView;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		E1DA02CCE4FF443A345C0CE0451846CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				43ED99B0FA0C1820ECEBE1B5E4E15866 /* Fabric.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D479A0301687E2A8F6F67D392B8551D2 /* Fabric */ = {
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				494C290BDBEAED23BA5743A3CE2FA0D1 /* FABAttributes.h */,
-				82981FB005A4ED4C556297735FD4ACED /* Fabric.h */,
-				2DDA681774534EB985F60A3418A4C908 /* Frameworks */,
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
 			);
-			name = Fabric;
-			path = Fabric;
-			sourceTree = "<group>";
-		};
-		E268B07786115FF5D5DFF396150E695F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EAC88243AB9F702F3015F7068842116A /* Crashlytics.framework */,
-			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		ED4F9BC9808B2738DCF2413EC0F00CEC /* Targets Support Files */ = {
@@ -251,11 +488,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1ECFC2B74B6FC3E341BEEE7B2C48B36B /* Headers */ = {
+		1138B5C397A156FE27A444C91EF5251E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E68285FFCC62474BB53B93E73A1A2AE /* Pods-Motivetica-umbrella.h in Headers */,
+				DB918F9684BC977E07DE8C826B282892 /* SCLAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1B2CACAF346678B44E974E17D9EF04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F2FF31B0ABC53796AC47564C488C49 /* NYAlertView.h in Headers */,
+				8AF8BF26CCCA67194B977AA583A949E3 /* NYAlertViewController-umbrella.h in Headers */,
+				7C0671AF55BB45E306866809BE014ABA /* NYAlertViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +519,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CE4F56D8099B52FD0B394E8F9E0052D /* Pods-MotiveticaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D0C5B7307329BE0FA9E547C97C2B0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF69AEF1EC869FCF20FDF78A1740EDCA /* Pods-Motivetica-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF14C07A2FD449093A79E6E6F489A9E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D6F7BEDEF50F8A0AA261FBD89E4FB8 /* GSMessages-umbrella.h in Headers */,
+				96976E172CB308749824DE26F2AAC2AE /* GSMessages.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A1A54E14DBFCE33CEEFA24B23A9282 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20070C9501DA782A1D5EDCB4F75AEDE2 /* Hue-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,24 +564,62 @@
 			);
 			name = "Pods-MotiveticaTests";
 			productName = "Pods-MotiveticaTests";
-			productReference = D129E7284B829C3CA35E23CCA4BDD0AE /* Pods_MotiveticaTests.framework */;
+			productReference = 5E8565C5D6A34B725BDE4AB060B05716 /* Pods_MotiveticaTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		646B6EB11BF6B2B8B385235A47052932 /* Pods-Motivetica */ = {
+		6B9DD6ADFF1867EB71F85F2DF77B9E23 /* SCLAlertView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4E5AE39B94F0A167A9C8482F8C70A1F /* Build configuration list for PBXNativeTarget "Pods-Motivetica" */;
+			buildConfigurationList = B0A7BB122EE772343CC1EA405C080614 /* Build configuration list for PBXNativeTarget "SCLAlertView" */;
 			buildPhases = (
-				9D36EB8EE5D6ABC80F0D90190D0D7950 /* Sources */,
-				23D0F55879FFBC17A1EFEA552ABA8895 /* Frameworks */,
-				1ECFC2B74B6FC3E341BEEE7B2C48B36B /* Headers */,
+				99ABF9ED2F05BAFE132A0356E18ADCC4 /* Sources */,
+				6C8CAFBE04F5857F93C3F92248B2B7BD /* Frameworks */,
+				1138B5C397A156FE27A444C91EF5251E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = SCLAlertView;
+			productName = SCLAlertView;
+			productReference = 81EC3291214A7F43BBB2D1A67CC24D18 /* SCLAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80A1AAD476BC6D0D87976DE91984E49D /* GSMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 059A5509FF0F82AA250F8C1FE7AE846E /* Build configuration list for PBXNativeTarget "GSMessages" */;
+			buildPhases = (
+				CEE2DC32528BCF7B4ACB260E44F9E0AC /* Sources */,
+				345AC45CCE17B8186CBFA3EC8968B25B /* Frameworks */,
+				DF14C07A2FD449093A79E6E6F489A9E8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSMessages;
+			productName = GSMessages;
+			productReference = 960F2999D918924BD99CEDB6F7CE95DF /* GSMessages.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88712E512B6280F24E23F29B0E4312C5 /* Pods-Motivetica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FBA0F0FD8A298CA6B477ACCC399968 /* Build configuration list for PBXNativeTarget "Pods-Motivetica" */;
+			buildPhases = (
+				E106993B639BA542C6C6F321F3ACF3F0 /* Sources */,
+				B01091EAE42948E15359B9AD476B5438 /* Frameworks */,
+				A6D0C5B7307329BE0FA9E547C97C2B0F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F925B57983D45FC16A3EEC9C49F142F1 /* PBXTargetDependency */,
+				A8CD1A4B8CA184A975C322A31E5B91BE /* PBXTargetDependency */,
+				52024F28EF8EAB958C4CC012B9D599A4 /* PBXTargetDependency */,
+				8FA96D6B7C014E7F7831945E343320EC /* PBXTargetDependency */,
+			);
 			name = "Pods-Motivetica";
 			productName = "Pods-Motivetica";
-			productReference = 0BDA6DB1DFC69B672A27D154BAC688C8 /* Pods_Motivetica.framework */;
+			productReference = A81FE5B7138B2F41D06230F7D2B5F4A9 /* Pods_Motivetica.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B07148BC1F161382F89D0926F03A5A92 /* Pods-MotiveticaUITests */ = {
@@ -326,7 +636,41 @@
 			);
 			name = "Pods-MotiveticaUITests";
 			productName = "Pods-MotiveticaUITests";
-			productReference = 1E4D295192B72C25C6D803F53CF8EDBB /* Pods_MotiveticaUITests.framework */;
+			productReference = 4560C27C5741D6D2593FEB281B547814 /* Pods_MotiveticaUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2542602E50EDF091ADB18B4688DF34F /* Hue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7517784A4541FCDE27289AB3A48C7E6 /* Build configuration list for PBXNativeTarget "Hue" */;
+			buildPhases = (
+				5447F17F074A6885C2DE5EA00B620E76 /* Sources */,
+				0A325AAFE109272B85689483EA39F9B2 /* Frameworks */,
+				F7A1A54E14DBFCE33CEEFA24B23A9282 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hue;
+			productName = Hue;
+			productReference = DA355C09833845CC0228CAF8337138DD /* Hue.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DAF64AE46D5032A024E111A2A871B61A /* NYAlertViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F95740B48EA789B254DD1628DE3CFC3 /* Build configuration list for PBXNativeTarget "NYAlertViewController" */;
+			buildPhases = (
+				B4C76BC7A449C59863E9237892558F8B /* Sources */,
+				EA4E12248077824BC31F6FD20911FA9F /* Frameworks */,
+				1B1B2CACAF346678B44E974E17D9EF04 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYAlertViewController;
+			productName = NYAlertViewController;
+			productReference = CD6C112741EA32A8560BF6D75AC6460B /* NYAlertViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -346,18 +690,32 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B37AF57A503D42708AB1AD9320741B4B /* Products */;
+			productRefGroup = 4C591E0AA8CC5E97446BAEB7AF59A109 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				646B6EB11BF6B2B8B385235A47052932 /* Pods-Motivetica */,
+				80A1AAD476BC6D0D87976DE91984E49D /* GSMessages */,
+				B2542602E50EDF091ADB18B4688DF34F /* Hue */,
+				DAF64AE46D5032A024E111A2A871B61A /* NYAlertViewController */,
+				88712E512B6280F24E23F29B0E4312C5 /* Pods-Motivetica */,
 				619333111393336F2BB334E0F204FEEF /* Pods-MotiveticaTests */,
 				B07148BC1F161382F89D0926F03A5A92 /* Pods-MotiveticaUITests */,
+				6B9DD6ADFF1867EB71F85F2DF77B9E23 /* SCLAlertView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5447F17F074A6885C2DE5EA00B620E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CBCB67007D356F14B8EC15118BA9E3 /* Hue-dummy.m in Sources */,
+				83790D4473D3F8965A7705C0EE1ADFC6 /* UIColor+Hue.swift in Sources */,
+				F85030977A6D1BAC697812B41A5905C7 /* UIImage+Hue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E8C01786A8244F1F20AE1DCB2EDCBDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,11 +724,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D36EB8EE5D6ABC80F0D90190D0D7950 /* Sources */ = {
+		99ABF9ED2F05BAFE132A0356E18ADCC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B841329527030CC65C0A84F7936ED727 /* Pods-Motivetica-dummy.m in Sources */,
+				797EE27A0319ACFD729F18834624B76C /* SCLAlertView-dummy.m in Sources */,
+				0ABB6545B94CF8BE05A52D581F70C873 /* SCLAlertView.swift in Sources */,
+				5D58C30F3CEA4146D098747E65515463 /* SCLExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,12 +742,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B4C76BC7A449C59863E9237892558F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7FBA691AA02D2FA13B3D8776989F0F /* NYAlertView.m in Sources */,
+				15E0DFEFDE0A2ECB2B385FA6AC15182A /* NYAlertViewController-dummy.m in Sources */,
+				D68303665D548EB8424C2FD37BF52086 /* NYAlertViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE2DC32528BCF7B4ACB260E44F9E0AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089CA1F406B63442DC59087196138D3C /* GSMessage.swift in Sources */,
+				7797E52B21C265ACD7C505D6632BCD64 /* GSMessages-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E106993B639BA542C6C6F321F3ACF3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEADFDCA83B6B81CB4465252AA9117B /* Pods-Motivetica-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		52024F28EF8EAB958C4CC012B9D599A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NYAlertViewController;
+			target = DAF64AE46D5032A024E111A2A871B61A /* NYAlertViewController */;
+			targetProxy = 9A190978026AB1EE888E369269FECD95 /* PBXContainerItemProxy */;
+		};
+		8FA96D6B7C014E7F7831945E343320EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCLAlertView;
+			target = 6B9DD6ADFF1867EB71F85F2DF77B9E23 /* SCLAlertView */;
+			targetProxy = BF656D15F3BC3B872351DD60D98E4924 /* PBXContainerItemProxy */;
+		};
+		A8CD1A4B8CA184A975C322A31E5B91BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hue;
+			target = B2542602E50EDF091ADB18B4688DF34F /* Hue */;
+			targetProxy = 1C029490785685D8D611E9304AC48863 /* PBXContainerItemProxy */;
+		};
+		F925B57983D45FC16A3EEC9C49F142F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GSMessages;
+			target = 80A1AAD476BC6D0D87976DE91984E49D /* GSMessages */;
+			targetProxy = FC606E08CA3A7229C4255BA9A239C8C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		0F71DC92A08B224B745DAB57A7CAB5D0 /* Release */ = {
+		0121C1DFE1057D10844D6F2276C39F9D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3229D63B109DCB2C5492D415D95D4673 /* Pods-MotiveticaTests.release.xcconfig */;
+			baseConfigurationReference = 6021E2045D0B6598BCC1D453D0E8E8C5 /* Pods-MotiveticaUITests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -400,18 +814,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MotiveticaTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MotiveticaUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MotiveticaTests/Pods-MotiveticaTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-MotiveticaUITests/Pods-MotiveticaUITests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MotiveticaTests;
+				PRODUCT_NAME = Pods_MotiveticaUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -420,9 +834,9 @@
 			};
 			name = Release;
 		};
-		18326AB82E873AE87B0066B5D6C00706 /* Release */ = {
+		02337A3BCE635C7AE65B234E9229C700 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20C9A1C61C6A23D874AA282AEFCEBDB5 /* Pods-Motivetica.release.xcconfig */;
+			baseConfigurationReference = 07E0149A724B8A2B6365F55ABAD06168 /* NYAlertViewController.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -435,97 +849,24 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Motivetica/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/NYAlertViewController/NYAlertViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NYAlertViewController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Motivetica/Pods-Motivetica.modulemap";
+				MODULEMAP_FILE = "Target Support Files/NYAlertViewController/NYAlertViewController.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Motivetica;
+				PRODUCT_NAME = NYAlertViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		5286F5AF2A8FADC77C4F3335B05E272E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2E1E315D0958FB2B7A3560F3D381B66 /* Pods-MotiveticaTests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MotiveticaTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MotiveticaTests/Pods-MotiveticaTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MotiveticaTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		57CEF7BC2ACE8A0D1F571626C4941BD0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56633B6341AD8866675021D3C67E825A /* Pods-Motivetica.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Motivetica/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Motivetica/Pods-Motivetica.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Motivetica;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -561,7 +902,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -569,9 +910,9 @@
 			};
 			name = Debug;
 		};
-		79795F309AD15CB46258133FCC882C5B /* Release */ = {
+		24CB9E9CF0C77DD8E467F6B10945FE7E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6021E2045D0B6598BCC1D453D0E8E8C5 /* Pods-MotiveticaUITests.release.xcconfig */;
+			baseConfigurationReference = FBC1DF61C640E2B3233972423C6FF9CB /* SCLAlertView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -584,13 +925,348 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AF020B3748BFB225B8E47079C2C17AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E0149A724B8A2B6365F55ABAD06168 /* NYAlertViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NYAlertViewController/NYAlertViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NYAlertViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NYAlertViewController/NYAlertViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NYAlertViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4EFA22BF168C987FF8EA5F32B99CC520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D456EC8B3FB7D0E0FB3FD26E6A80AACC /* Hue.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Hue/Hue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hue/Hue.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Hue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55ADD42C01D49F0D2EA5F005B33936D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56633B6341AD8866675021D3C67E825A /* Pods-Motivetica.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Motivetica/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Motivetica/Pods-Motivetica.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Motivetica;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		645BDD3762DC1A951EBAC6860E08B097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D456EC8B3FB7D0E0FB3FD26E6A80AACC /* Hue.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Hue/Hue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hue/Hue.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Hue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AABCFEA68367CE6490E5683BB1D1E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC5BC09266BDBB820D096FCC954C14A2 /* GSMessages.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GSMessages/GSMessages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSMessages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GSMessages/GSMessages.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GSMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F0788FEC7CD9ECFA8276D736E27A8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2E1E315D0958FB2B7A3560F3D381B66 /* Pods-MotiveticaTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MotiveticaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MotiveticaTests/Pods-MotiveticaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MotiveticaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95443DEFEFE2EADE5177546A0127A4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20C9A1C61C6A23D874AA282AEFCEBDB5 /* Pods-Motivetica.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Motivetica/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Motivetica/Pods-Motivetica.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Motivetica;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B96B8E4045A039C170B37932D9C84192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBC1DF61C640E2B3233972423C6FF9CB /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D495795E9E349B43944F0AC637AAC983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3229D63B109DCB2C5492D415D95D4673 /* Pods-MotiveticaTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MotiveticaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MotiveticaTests/Pods-MotiveticaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MotiveticaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFD79196299ACB0BF0876138735F59F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF875AEBBE00794A1729A2A48EA9AAE /* Pods-MotiveticaUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-MotiveticaUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MotiveticaUITests/Pods-MotiveticaUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -602,9 +1278,9 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -636,7 +1312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -644,9 +1320,9 @@
 			};
 			name = Release;
 		};
-		C7B5654B3FE6FCAF71E6066ED2D573C8 /* Debug */ = {
+		F5831DF141159AAD2E27BB335601F2D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EF875AEBBE00794A1729A2A48EA9AAE /* Pods-MotiveticaUITests.debug.xcconfig */;
+			baseConfigurationReference = FC5BC09266BDBB820D096FCC954C14A2 /* GSMessages.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -659,20 +1335,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MotiveticaUITests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GSMessages/GSMessages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSMessages/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MotiveticaUITests/Pods-MotiveticaUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/GSMessages/GSMessages.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MotiveticaUITests;
+				PRODUCT_NAME = GSMessages;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -682,11 +1356,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		059A5509FF0F82AA250F8C1FE7AE846E /* Build configuration list for PBXNativeTarget "GSMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5831DF141159AAD2E27BB335601F2D7 /* Debug */,
+				6AABCFEA68367CE6490E5683BB1D1E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
-				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -694,8 +1377,17 @@
 		3C36F4452260155265106D176AAF2410 /* Build configuration list for PBXNativeTarget "Pods-MotiveticaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7B5654B3FE6FCAF71E6066ED2D573C8 /* Debug */,
-				79795F309AD15CB46258133FCC882C5B /* Release */,
+				DFD79196299ACB0BF0876138735F59F9 /* Debug */,
+				0121C1DFE1057D10844D6F2276C39F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F95740B48EA789B254DD1628DE3CFC3 /* Build configuration list for PBXNativeTarget "NYAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF020B3748BFB225B8E47079C2C17AA /* Debug */,
+				02337A3BCE635C7AE65B234E9229C700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -703,17 +1395,35 @@
 		8A027B475356AD42D25BC60A24C826CF /* Build configuration list for PBXNativeTarget "Pods-MotiveticaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5286F5AF2A8FADC77C4F3335B05E272E /* Debug */,
-				0F71DC92A08B224B745DAB57A7CAB5D0 /* Release */,
+				7F0788FEC7CD9ECFA8276D736E27A8F0 /* Debug */,
+				D495795E9E349B43944F0AC637AAC983 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4E5AE39B94F0A167A9C8482F8C70A1F /* Build configuration list for PBXNativeTarget "Pods-Motivetica" */ = {
+		A1FBA0F0FD8A298CA6B477ACCC399968 /* Build configuration list for PBXNativeTarget "Pods-Motivetica" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57CEF7BC2ACE8A0D1F571626C4941BD0 /* Debug */,
-				18326AB82E873AE87B0066B5D6C00706 /* Release */,
+				55ADD42C01D49F0D2EA5F005B33936D2 /* Debug */,
+				95443DEFEFE2EADE5177546A0127A4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A7BB122EE772343CC1EA405C080614 /* Build configuration list for PBXNativeTarget "SCLAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96B8E4045A039C170B37932D9C84192 /* Debug */,
+				24CB9E9CF0C77DD8E467F6B10945FE7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7517784A4541FCDE27289AB3A48C7E6 /* Build configuration list for PBXNativeTarget "Hue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645BDD3762DC1A951EBAC6860E08B097 /* Debug */,
+				4EFA22BF168C987FF8EA5F32B99CC520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

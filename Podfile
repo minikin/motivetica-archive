@@ -1,4 +1,4 @@
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'Motivetica' do
   use_frameworks!
@@ -6,7 +6,11 @@ target 'Motivetica' do
   # Pods for Motivetica
 	pod 'Fabric'
 	pod 'Crashlytics'
-
+  pod 'Hue'
+  pod 'SCLAlertView'
+  pod 'GSMessages'
+  pod 'NYAlertViewController'
+  
   target 'MotiveticaTests' do
     inherit! :search_paths
   end

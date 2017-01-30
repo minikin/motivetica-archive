@@ -10,7 +10,11 @@
 		3BC1AD9C138549B6680B5988 /* Pods_MotiveticaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9FA35C4C439D702FB23F2 /* Pods_MotiveticaUITests.framework */; };
 		9267DC252878BDEF686F36C3 /* Pods_MotiveticaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4534FDD5CD635C978F2F45C /* Pods_MotiveticaTests.framework */; };
 		CE30D2D81E355F7500419591 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30D2D71E355F7500419591 /* Resource.swift */; };
-		CE599FBD1DD28F44003F1343 /* GothaProBol.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE599FBC1DD28F44003F1343 /* GothaProBol.otf */; };
+		CE5772791E3FDFE100B558F2 /* BebasNeue_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE5772741E3FDFE100B558F2 /* BebasNeue_Regular.otf */; };
+		CE57727A1E3FDFE100B558F2 /* Gilroy_ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE5772751E3FDFE100B558F2 /* Gilroy_ExtraBold.otf */; };
+		CE57727B1E3FDFE100B558F2 /* GothaProBla.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE5772761E3FDFE100B558F2 /* GothaProBla.otf */; };
+		CE57727C1E3FDFE100B558F2 /* GothaProMed.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE5772771E3FDFE100B558F2 /* GothaProMed.otf */; };
+		CE57727D1E3FDFE100B558F2 /* GothaProBol.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE5772781E3FDFE100B558F2 /* GothaProBol.otf */; };
 		CE85E91C1E356819007FF1CE /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85E91B1E356819007FF1CE /* Webservice.swift */; };
 		CE8916BB1E228997006247B4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8916BA1E228997006247B4 /* Reachability.swift */; };
 		CEA348731DD10E0D00BD1F20 /* MotiveticaKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEA348721DD10E0D00BD1F20 /* MotiveticaKeys.plist */; };
@@ -24,10 +28,6 @@
 		CEE729E41E22C69700E3EA05 /* Motivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE729E31E22C69700E3EA05 /* Motivation.swift */; };
 		CEF5BB311E3E20C60026922E /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BB301E3E20C60026922E /* FileHelper.swift */; };
 		CEF5BB351E3E25A10026922E /* MotiveticaEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BB341E3E25A10026922E /* MotiveticaEndPoints.swift */; };
-		CEF5BB3A1E3E5A6F0026922E /* Bebas_Neue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEF5BB361E3E5A6F0026922E /* Bebas_Neue.ttf */; };
-		CEF5BB3B1E3E5A6F0026922E /* ProximaNova_Alt_Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEF5BB371E3E5A6F0026922E /* ProximaNova_Alt_Bold.otf */; };
-		CEF5BB3C1E3E5A6F0026922E /* GothaProNarBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEF5BB381E3E5A6F0026922E /* GothaProNarBold.otf */; };
-		CEF5BB3D1E3E5A6F0026922E /* GothaProBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEF5BB391E3E5A6F0026922E /* GothaProBlack.otf */; };
 		CEF5BB3F1E3E60400026922E /* MotivationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BB3E1E3E60400026922E /* MotivationsViewController.swift */; };
 		CEF5BB431E3E62980026922E /* MotivationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BB421E3E62980026922E /* MotivationCollectionViewCell.swift */; };
 		CEF5BB451E3E97130026922E /* MotivationsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BB441E3E97130026922E /* MotivationsDataSource.swift */; };
@@ -59,7 +59,11 @@
 		7C1231EB843822757888AD14 /* Pods-Motivetica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivetica.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Motivetica/Pods-Motivetica.debug.xcconfig"; sourceTree = "<group>"; };
 		9505768F3123A7505568BE01 /* Pods-MotiveticaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotiveticaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotiveticaTests/Pods-MotiveticaTests.release.xcconfig"; sourceTree = "<group>"; };
 		CE30D2D71E355F7500419591 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
-		CE599FBC1DD28F44003F1343 /* GothaProBol.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothaProBol.otf; sourceTree = "<group>"; };
+		CE5772741E3FDFE100B558F2 /* BebasNeue_Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue_Regular.otf; sourceTree = "<group>"; };
+		CE5772751E3FDFE100B558F2 /* Gilroy_ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gilroy_ExtraBold.otf; sourceTree = "<group>"; };
+		CE5772761E3FDFE100B558F2 /* GothaProBla.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothaProBla.otf; sourceTree = "<group>"; };
+		CE5772771E3FDFE100B558F2 /* GothaProMed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothaProMed.otf; sourceTree = "<group>"; };
+		CE5772781E3FDFE100B558F2 /* GothaProBol.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothaProBol.otf; sourceTree = "<group>"; };
 		CE85E91B1E356819007FF1CE /* Webservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		CE8916BA1E228997006247B4 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		CEA348721DD10E0D00BD1F20 /* MotiveticaKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MotiveticaKeys.plist; sourceTree = "<group>"; };
@@ -79,10 +83,6 @@
 		CEE729E31E22C69700E3EA05 /* Motivation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motivation.swift; sourceTree = "<group>"; };
 		CEF5BB301E3E20C60026922E /* FileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
 		CEF5BB341E3E25A10026922E /* MotiveticaEndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotiveticaEndPoints.swift; sourceTree = "<group>"; };
-		CEF5BB361E3E5A6F0026922E /* Bebas_Neue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bebas_Neue.ttf; sourceTree = "<group>"; };
-		CEF5BB371E3E5A6F0026922E /* ProximaNova_Alt_Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNova_Alt_Bold.otf; sourceTree = "<group>"; };
-		CEF5BB381E3E5A6F0026922E /* GothaProNarBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothaProNarBold.otf; sourceTree = "<group>"; };
-		CEF5BB391E3E5A6F0026922E /* GothaProBlack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothaProBlack.otf; sourceTree = "<group>"; };
 		CEF5BB3E1E3E60400026922E /* MotivationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotivationsViewController.swift; sourceTree = "<group>"; };
 		CEF5BB421E3E62980026922E /* MotivationCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotivationCollectionViewCell.swift; sourceTree = "<group>"; };
 		CEF5BB441E3E97130026922E /* MotivationsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotivationsDataSource.swift; sourceTree = "<group>"; };
@@ -156,11 +156,11 @@
 		CE599FBB1DD28EB9003F1343 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				CEF5BB361E3E5A6F0026922E /* Bebas_Neue.ttf */,
-				CEF5BB371E3E5A6F0026922E /* ProximaNova_Alt_Bold.otf */,
-				CEF5BB381E3E5A6F0026922E /* GothaProNarBold.otf */,
-				CEF5BB391E3E5A6F0026922E /* GothaProBlack.otf */,
-				CE599FBC1DD28F44003F1343 /* GothaProBol.otf */,
+				CE5772741E3FDFE100B558F2 /* BebasNeue_Regular.otf */,
+				CE5772751E3FDFE100B558F2 /* Gilroy_ExtraBold.otf */,
+				CE5772761E3FDFE100B558F2 /* GothaProBla.otf */,
+				CE5772771E3FDFE100B558F2 /* GothaProMed.otf */,
+				CE5772781E3FDFE100B558F2 /* GothaProBol.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -404,15 +404,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF5BB3C1E3E5A6F0026922E /* GothaProNarBold.otf in Resources */,
+				CE57727C1E3FDFE100B558F2 /* GothaProMed.otf in Resources */,
+				CE57727D1E3FDFE100B558F2 /* GothaProBol.otf in Resources */,
 				CEB1C8911DB5819B00710497 /* LaunchScreen.storyboard in Resources */,
+				CE5772791E3FDFE100B558F2 /* BebasNeue_Regular.otf in Resources */,
 				CEB1C88E1DB5819B00710497 /* Assets.xcassets in Resources */,
-				CE599FBD1DD28F44003F1343 /* GothaProBol.otf in Resources */,
-				CEF5BB3B1E3E5A6F0026922E /* ProximaNova_Alt_Bold.otf in Resources */,
-				CEF5BB3D1E3E5A6F0026922E /* GothaProBlack.otf in Resources */,
+				CE57727B1E3FDFE100B558F2 /* GothaProBla.otf in Resources */,
 				CEB1C88C1DB5819B00710497 /* Main.storyboard in Resources */,
 				CEA348731DD10E0D00BD1F20 /* MotiveticaKeys.plist in Resources */,
-				CEF5BB3A1E3E5A6F0026922E /* Bebas_Neue.ttf in Resources */,
+				CE57727A1E3FDFE100B558F2 /* Gilroy_ExtraBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
