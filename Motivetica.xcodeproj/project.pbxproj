@@ -10,6 +10,7 @@
 		3BC1AD9C138549B6680B5988 /* Pods_MotiveticaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F9FA35C4C439D702FB23F2 /* Pods_MotiveticaUITests.framework */; };
 		9267DC252878BDEF686F36C3 /* Pods_MotiveticaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4534FDD5CD635C978F2F45C /* Pods_MotiveticaTests.framework */; };
 		CE29B5241E479EAC007255AF /* MotivationsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29B5231E479EAC007255AF /* MotivationsLayout.swift */; };
+		CE29B5261E47ABB4007255AF /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29B5251E47ABB4007255AF /* EditViewController.swift */; };
 		CE30D2D81E355F7500419591 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30D2D71E355F7500419591 /* Resource.swift */; };
 		CE5772791E3FDFE100B558F2 /* BebasNeue_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE5772741E3FDFE100B558F2 /* BebasNeue_Regular.otf */; };
 		CE57727A1E3FDFE100B558F2 /* Gilroy_ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE5772751E3FDFE100B558F2 /* Gilroy_ExtraBold.otf */; };
@@ -61,6 +62,7 @@
 		7C1231EB843822757888AD14 /* Pods-Motivetica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivetica.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Motivetica/Pods-Motivetica.debug.xcconfig"; sourceTree = "<group>"; };
 		9505768F3123A7505568BE01 /* Pods-MotiveticaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotiveticaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotiveticaTests/Pods-MotiveticaTests.release.xcconfig"; sourceTree = "<group>"; };
 		CE29B5231E479EAC007255AF /* MotivationsLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotivationsLayout.swift; sourceTree = "<group>"; };
+		CE29B5251E47ABB4007255AF /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		CE30D2D71E355F7500419591 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		CE5772741E3FDFE100B558F2 /* BebasNeue_Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue_Regular.otf; sourceTree = "<group>"; };
 		CE5772751E3FDFE100B558F2 /* Gilroy_ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gilroy_ExtraBold.otf; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 				CEA348741DD10F6A00BD1F20 /* MainViewController.swift */,
 				CEF5BB3E1E3E60400026922E /* MotivationsViewController.swift */,
 				CEC2B9171E3FEFFB00605C99 /* AboutViewController.swift */,
+				CE29B5251E47ABB4007255AF /* EditViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -634,6 +637,7 @@
 				CEF5BB351E3E25A10026922E /* MotiveticaEndPoints.swift in Sources */,
 				CEB1C8871DB5819B00710497 /* AppDelegate.swift in Sources */,
 				CE30D2D81E355F7500419591 /* Resource.swift in Sources */,
+				CE29B5261E47ABB4007255AF /* EditViewController.swift in Sources */,
 				CEC2B9181E3FEFFB00605C99 /* AboutViewController.swift in Sources */,
 				CEF5BB311E3E20C60026922E /* FileHelper.swift in Sources */,
 				CEF5BB431E3E62980026922E /* MotivationCollectionViewCell.swift in Sources */,
