@@ -20,8 +20,8 @@ class MotivationsViewController: UIViewController {
     parseKey: "results",
     parseElement: Motivation.init)
   
-    override func viewDidLoad() {
-        super.viewDidLoad()
+  override func viewDidLoad() {
+      super.viewDidLoad()
       
       collectionView.dataSource = motivationsDataSourse
       collectionView.delegate = self
@@ -36,33 +36,31 @@ class MotivationsViewController: UIViewController {
       let cellHeight = UIScreen.main.bounds.size.height - 20
       let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
       layout.itemSize = CGSize(width: cellWidth, height: cellHeight)
-      
-      
     }
-
   
-//  func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-//    
-//    let numberOfCell: CGFloat = 1   //you need to give a type as CGFloat
-//    let cellWidth = UIScreen.main.bounds.size.width / numberOfCell
-//    return CGSize(width: cellWidth, height: cellWidth)
-//    
-//  }
-  
-  @IBAction func unwindFromEdit(_ sender: UIStoryboardSegue){
+  func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+    let collectionLayout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
+    let index = scrollView.contentOffset.x / collectionLayout.itemSize.width
+    let fracPart = index.truncatingRemainder(dividingBy: 1)
+    let item = Int(fracPart >= 0.5 ? ceil(index) : floor(index))
     
-    print("Back from Edit")
-    
+    let indexPath = IndexPath(item: item, section: 0)
+    collectionView.scrollToItem(at: indexPath, at: .left, animated: false)
   }
 
+  
+  @IBAction func unwindFromEdit(_ sender: UIStoryboardSegue){
+    print("Back from Edit")
+  }
+  
 
 }
 
+
 extension MotivationsViewController : UICollectionViewDelegate {
   
+  func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+    print("DO SOMETHING")
+  }
   
-  
-  
-  
-
 }

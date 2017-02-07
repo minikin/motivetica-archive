@@ -14,7 +14,6 @@ class MainViewController: UIViewController {
   var reachability: Reachability? = Reachability.networkReachabilityForInternetConnection()
   let webservice = Webservice()
 
-  
   var allMotivations: Resource<[Motivation]> = try! Resource(
     url: URL(string: "https://motivetica.com/parse/classes/Motivation")!,
     parseKey: "results",
@@ -44,7 +43,6 @@ class MainViewController: UIViewController {
     func checkReachability() {
       guard let r = reachability else { return }
       if r.isReachable  {
-        //view.backgroundColor = UIColor.green
         webservice.load(allMotivations) { result in
           print(result)
         }

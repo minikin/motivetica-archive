@@ -8,9 +8,9 @@
 
 import UIKit
 
-
-class MotivationsLayout: UICollectionViewLayout {
+class MotivationsLayout: UICollectionViewFlowLayout {
   
+
   
   
   
