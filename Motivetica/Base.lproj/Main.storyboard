@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -37,6 +37,9 @@
                                     <constraint firstAttribute="width" secondItem="H6M-w9-rtj" secondAttribute="height" multiplier="152:119" id="r5z-Qe-Fxa"/>
                                 </constraints>
                                 <state key="normal" image="yOw"/>
+                                <connections>
+                                    <action selector="toYourOwnMotivations:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tQe-TL-r7W"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAB-sj-xAn" userLabel="Motivetica">
                                 <rect key="frame" x="76" y="28" width="222" height="285.5"/>
@@ -55,7 +58,8 @@
                                 </constraints>
                                 <state key="normal" image="wOfD"/>
                                 <connections>
-                                    <segue destination="VOS-ud-W7E" kind="show" identifier="toMotovations" id="fll-Tb-do1"/>
+                                    <action selector="toPublicMotivations:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ofk-aX-cl8"/>
+                                    <segue destination="VOS-ud-W7E" kind="show" identifier="toPublicMotovations" id="fll-Tb-do1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -129,7 +133,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DESIGNED BY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNq-Tn-Jh9">
-                                <rect key="frame" x="123" y="270" width="129" height="16.5"/>
+                                <rect key="frame" x="123.5" y="270" width="129" height="16.5"/>
                                 <fontDescription key="fontDescription" name="GothamPro-Medium" family="Gotham Pro" pointSize="18"/>
                                 <color key="textColor" red="0.12549019607843137" green="0.12549019607843137" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>

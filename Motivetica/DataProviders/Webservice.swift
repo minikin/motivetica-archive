@@ -61,6 +61,6 @@ public final class Webservice {
         result = Result(parsed, or: WebserviceError.other)
       }
       DispatchQueue.main.async { completion(result) }
-    }) .resume()
+    }).resume()
   }
 }

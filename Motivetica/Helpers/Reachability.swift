@@ -9,9 +9,6 @@
 import Foundation
 import SystemConfiguration
 
-
-let ReachabilityDidChangeNotificationName = "ReachabilityDidChangeNotification"
-
 enum ReachabilityStatus {
   case notReachable
   case reachableViaWiFi
@@ -86,7 +83,7 @@ class Reachability: NSObject {
         let infoObject = Unmanaged<AnyObject>.fromOpaque(currentInfo).takeUnretainedValue()
         if infoObject is Reachability {
           let networkReachability = infoObject as! Reachability
-          NotificationCenter.default.post(name: Notification.Name(rawValue: ReachabilityDidChangeNotificationName), object: networkReachability)
+          NotificationCenter.default.post(name: .reachabilityDidChangeNotificationName, object: networkReachability)
         }
       }
     }, &context) == true else { return false }

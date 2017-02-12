@@ -29,11 +29,13 @@
 		CEB1C8A71DB5819B00710497 /* MotiveticaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB1C8A61DB5819B00710497 /* MotiveticaUITests.swift */; };
 		CEC2B9181E3FEFFB00605C99 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC2B9171E3FEFFB00605C99 /* AboutViewController.swift */; };
 		CEE729E41E22C69700E3EA05 /* Motivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE729E31E22C69700E3EA05 /* Motivation.swift */; };
+		CEE911811E50C6D800ACB8BB /* NotificationsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE911801E50C6D800ACB8BB /* NotificationsConstants.swift */; };
+		CEE911881E50E63900ACB8BB /* ItemsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE911871E50E63900ACB8BB /* ItemsDataSource.swift */; };
+		CEE9118A1E50E74700ACB8BB /* CellDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE911891E50E74700ACB8BB /* CellDescriptor.swift */; };
 		CEF5BB311E3E20C60026922E /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BB301E3E20C60026922E /* FileHelper.swift */; };
 		CEF5BB351E3E25A10026922E /* MotiveticaEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BB341E3E25A10026922E /* MotiveticaEndPoints.swift */; };
 		CEF5BB3F1E3E60400026922E /* MotivationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BB3E1E3E60400026922E /* MotivationsViewController.swift */; };
 		CEF5BB431E3E62980026922E /* MotivationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BB421E3E62980026922E /* MotivationCollectionViewCell.swift */; };
-		CEF5BB451E3E97130026922E /* MotivationsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5BB441E3E97130026922E /* MotivationsDataSource.swift */; };
 		ED90CE65EB1C918AD013C6A4 /* Pods_Motivetica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FB9226B7FCF79322E0CF29 /* Pods_Motivetica.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,11 +89,13 @@
 		CEB1C8A81DB5819B00710497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC2B9171E3FEFFB00605C99 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		CEE729E31E22C69700E3EA05 /* Motivation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motivation.swift; sourceTree = "<group>"; };
+		CEE911801E50C6D800ACB8BB /* NotificationsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsConstants.swift; sourceTree = "<group>"; };
+		CEE911871E50E63900ACB8BB /* ItemsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsDataSource.swift; sourceTree = "<group>"; };
+		CEE911891E50E74700ACB8BB /* CellDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellDescriptor.swift; sourceTree = "<group>"; };
 		CEF5BB301E3E20C60026922E /* FileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
 		CEF5BB341E3E25A10026922E /* MotiveticaEndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotiveticaEndPoints.swift; sourceTree = "<group>"; };
 		CEF5BB3E1E3E60400026922E /* MotivationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotivationsViewController.swift; sourceTree = "<group>"; };
 		CEF5BB421E3E62980026922E /* MotivationCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotivationCollectionViewCell.swift; sourceTree = "<group>"; };
-		CEF5BB441E3E97130026922E /* MotivationsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotivationsDataSource.swift; sourceTree = "<group>"; };
 		D4534FDD5CD635C978F2F45C /* Pods_MotiveticaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotiveticaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E724DE2017CB271784DC86F3 /* Pods-Motivetica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivetica.release.xcconfig"; path = "Pods/Target Support Files/Pods-Motivetica/Pods-Motivetica.release.xcconfig"; sourceTree = "<group>"; };
 		ECF48419B1D2E26106F6E76D /* Pods-MotiveticaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotiveticaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotiveticaUITests/Pods-MotiveticaUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -154,7 +158,7 @@
 				CE30D2D71E355F7500419591 /* Resource.swift */,
 				CE85E91B1E356819007FF1CE /* Webservice.swift */,
 				CEF5BB341E3E25A10026922E /* MotiveticaEndPoints.swift */,
-				CEF5BB441E3E97130026922E /* MotivationsDataSource.swift */,
+				CEE911871E50E63900ACB8BB /* ItemsDataSource.swift */,
 			);
 			path = DataProviders;
 			sourceTree = "<group>";
@@ -260,6 +264,7 @@
 			children = (
 				CE8916BA1E228997006247B4 /* Reachability.swift */,
 				CEF5BB301E3E20C60026922E /* FileHelper.swift */,
+				CEE911801E50C6D800ACB8BB /* NotificationsConstants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 			isa = PBXGroup;
 			children = (
 				CEE729E31E22C69700E3EA05 /* Motivation.swift */,
+				CEE911891E50E74700ACB8BB /* CellDescriptor.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -635,14 +641,16 @@
 				CEE729E41E22C69700E3EA05 /* Motivation.swift in Sources */,
 				CE85E91C1E356819007FF1CE /* Webservice.swift in Sources */,
 				CEF5BB351E3E25A10026922E /* MotiveticaEndPoints.swift in Sources */,
+				CEE9118A1E50E74700ACB8BB /* CellDescriptor.swift in Sources */,
 				CEB1C8871DB5819B00710497 /* AppDelegate.swift in Sources */,
 				CE30D2D81E355F7500419591 /* Resource.swift in Sources */,
 				CE29B5261E47ABB4007255AF /* EditViewController.swift in Sources */,
 				CEC2B9181E3FEFFB00605C99 /* AboutViewController.swift in Sources */,
 				CEF5BB311E3E20C60026922E /* FileHelper.swift in Sources */,
+				CEE911881E50E63900ACB8BB /* ItemsDataSource.swift in Sources */,
 				CEF5BB431E3E62980026922E /* MotivationCollectionViewCell.swift in Sources */,
 				CE8916BB1E228997006247B4 /* Reachability.swift in Sources */,
-				CEF5BB451E3E97130026922E /* MotivationsDataSource.swift in Sources */,
+				CEE911811E50C6D800ACB8BB /* NotificationsConstants.swift in Sources */,
 				CEF5BB3F1E3E60400026922E /* MotivationsViewController.swift in Sources */,
 				CE29B5241E479EAC007255AF /* MotivationsLayout.swift in Sources */,
 			);

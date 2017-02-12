@@ -5,7 +5,9 @@
 //  Created by Sasha Prokhorenko on 1/8/17.
 //  Copyright © 2017 Sasha Prokhorenko. All rights reserved.
 //
- 
+
+import Foundation
+
 struct Motivation {
   let id: String
   let published: Bool
@@ -44,3 +46,26 @@ extension Motivation {
     self.backgroundColor = backgroundColor
   }
 }
+
+extension Motivation {
+  static let all = try! Resource<[Motivation]>(
+        url: URL(string: "https://motivetica.com/parse/classes/Motivation")!,
+        parseKey: "results",
+        parseElement: Motivation.init)
+}
+
+extension Motivation {
+  func configureCell(_ cell: MotivationCollectionViewCell) {
+    cell.textView?.text = motivationText
+    cell.fontName?.text = fontType
+    cell.fornWeight?.text = fontWeight
+  }
+}
+
+extension Motivation {
+  var cellDescriptor: CellDescriptor {
+      return CellDescriptor(reuseIdentifier: "motivationCell", configure: self.configureCell)
+  }
+}
+
+
