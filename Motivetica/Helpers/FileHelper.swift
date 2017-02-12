@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 func readKeysFrom(_ plistWithName: String) -> [String : String] {
   
         var motiveticaServerKeys = ["":""]

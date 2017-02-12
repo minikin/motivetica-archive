@@ -8,6 +8,7 @@
 
 import UIKit
 import Foundation
+import GSMessages
 
 class MainViewController: UIViewController {
   
@@ -39,12 +40,23 @@ class MainViewController: UIViewController {
       guard let r = reachability else { return }
       if r.isReachable  {
         webservice.load(Motivation.all) { results in
-//          print(results)
           guard let r = results.value else { return }
           self.motivations = r
         }
       } else {
         // Show message
+        self.showMessage("No Internet connection", type: .warning, options: [
+          .animation(.fade),
+          .autoHide(true),
+          .autoHideDelay(10.0),
+          .height(30.0),
+          .hideOnTap(true),
+          .position(.top),
+          .textAlignment(.center),
+          .textColor(UIColor.white),
+          .textNumberOfLines(1),
+          .textPadding(30.0)
+          ])
       }
     }
   
@@ -55,7 +67,7 @@ class MainViewController: UIViewController {
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     
-    if segue.identifier == "toPublicMotovations" {
+    if segue.identifier == "toPublicMotivations" {
       let destinationController = segue.destination as! MotivationsViewController
       destinationController.motivations = motivations
     } else {

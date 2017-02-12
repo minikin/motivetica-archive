@@ -59,7 +59,7 @@
                                 <state key="normal" image="wOfD"/>
                                 <connections>
                                     <action selector="toPublicMotivations:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ofk-aX-cl8"/>
-                                    <segue destination="VOS-ud-W7E" kind="show" identifier="toPublicMotovations" id="fll-Tb-do1"/>
+                                    <segue destination="VOS-ud-W7E" kind="show" identifier="toPublicMotivations" id="fll-Tb-do1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -232,10 +232,10 @@ ALL RIGHTS RESERVED 2017. </string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ja4-Pd-Gk0">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ja4-Pd-Gk0">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="QTA-ep-S8U">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="QTA-ep-S8U" customClass="MotivationsLayout" customModule="Motivetica" customModuleProvider="target">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>

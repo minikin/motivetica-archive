@@ -9,7 +9,6 @@ target 'Motivetica' do
   pod 'Hue'
   pod 'SCLAlertView'
   pod 'GSMessages'
-  pod 'NYAlertViewController'
   
   target 'MotiveticaTests' do
     inherit! :search_paths

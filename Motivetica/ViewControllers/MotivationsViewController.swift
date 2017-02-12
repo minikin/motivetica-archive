@@ -22,7 +22,7 @@ class MotivationsViewController: UIViewController {
     
       let cellWidth = UIScreen.main.bounds.size.width
       let cellHeight = UIScreen.main.bounds.size.height - 20
-      let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
+      let layout = collectionView.collectionViewLayout as! MotivationsLayout
       layout.itemSize = CGSize(width: cellWidth, height: cellHeight)
     }
   
@@ -45,6 +45,15 @@ extension MotivationsViewController : UICollectionViewDelegate {
   func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
     print("DO SOMETHING")
   }
+  
+}
+
+extension MotivationsViewController: UICollectionViewDelegateFlowLayout {
+  
+
+  
+  
+  
   
 }
 
