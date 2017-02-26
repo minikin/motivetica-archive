@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import UIKit
+import Hue
 
 struct Motivation {
   let id: String
@@ -56,9 +58,27 @@ extension Motivation {
 
 extension Motivation {
   func configureCell(_ cell: MotivationCollectionViewCell) {
-    cell.textView?.text = motivationText
-    cell.fontName?.text = fontType
-    cell.fornWeight?.text = fontWeight
+    
+    cell.backgroundColor = UIColor(hex: backgroundColor)
+    cell.textView.backgroundColor = UIColor(hex: backgroundColor)
+    cell.textView.textColor = UIColor(hex: fontColor)
+    cell.textView.text = motivationText
+    
+    
+    //print("CELL DATA:", UIFont(name: fontType, size: CGFloat(NumberFormatter().number(from: fontSize)!)))
+    
+    cell.textView.font = UIFont(name: fontType, size: CGFloat(NumberFormatter().number(from: fontSize)!))
+    
+    cell.fontName.text = fontType
+    cell.fontName.font =  UIFont(name: fontType, size: 16.0)
+    cell.fontName.textColor = UIColor(hex: fontColor)
+    cell.fornWeight.text = fontWeight
+    cell.fornWeight.font = UIFont(name: fontType, size: 12.0)
+    cell.fornWeight.textColor = UIColor(hex: fontColor)
+    
+    
+    
+    
   }
 }
 
