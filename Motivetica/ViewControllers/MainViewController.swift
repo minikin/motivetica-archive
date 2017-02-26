@@ -21,8 +21,6 @@ class MainViewController: UIViewController {
       
       NotificationCenter.default.addObserver(self, selector: #selector(reachabilityDidChange(_:)), name: .reachabilityDidChangeNotificationName, object: nil)
       _ = reachability?.startNotifier()
-      
-          
     }
 
     deinit {
@@ -84,7 +82,6 @@ class MainViewController: UIViewController {
   @IBAction func toYourOwnMotivations(_ sender: UIButton) {
     
   }
-  
   
   @IBAction func unwindFromAbout(_ sender: UIStoryboardSegue){
     print("Back from About. Do nothing")

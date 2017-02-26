@@ -59,7 +59,7 @@
                                 <state key="normal" image="wOfD"/>
                                 <connections>
                                     <action selector="toPublicMotivations:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ofk-aX-cl8"/>
-                                    <segue destination="VOS-ud-W7E" kind="show" identifier="toPublicMotivations" id="fll-Tb-do1"/>
+                                    <segue destination="VOS-ud-W7E" kind="show" identifier="toPublicMotivations" id="Hhl-m3-dEL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -101,7 +101,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-210.40000000000001" y="59.820089955022496"/>
+            <point key="canvasLocation" x="-422" y="38"/>
         </scene>
         <!--About View Controller-->
         <scene sceneID="qSW-RZ-Xbc">
@@ -233,8 +233,7 @@ ALL RIGHTS RESERVED 2017. </string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ja4-Pd-Gk0">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="QTA-ep-S8U" customClass="MotivationsLayout" customModule="Motivetica" customModuleProvider="target">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -243,30 +242,30 @@ ALL RIGHTS RESERVED 2017. </string>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="motivationCell" id="B4e-qI-gaB" customClass="MotivationCollectionViewCell" customModule="Motivetica" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="3" width="372" height="642"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="372" height="642"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Li7-ZJ-olE">
-                                                    <rect key="frame" x="20" y="35" width="332" height="507"/>
+                                                    <rect key="frame" x="20" y="35" width="335" height="532"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" name="GothamPro-Medium" family="Gotham Pro" pointSize="48"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K1w-dY-ltL" userLabel="navigation">
-                                                    <rect key="frame" x="8" y="542" width="356" height="20"/>
+                                                    <rect key="frame" x="8" y="567" width="359" height="20"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dot" translatesAutoresizingMaskIntoConstraints="NO" id="kaL-4W-oYf">
-                                                            <rect key="frame" x="172.5" y="4" width="11" height="11"/>
+                                                            <rect key="frame" x="174" y="4" width="11" height="11"/>
                                                         </imageView>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Afn-8V-e8X" userLabel="next">
-                                                            <rect key="frame" x="191.5" y="-2" width="45" height="22"/>
+                                                            <rect key="frame" x="193" y="-2" width="45" height="22"/>
                                                             <state key="normal" image="arrow"/>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uZ-Xu-bj5" userLabel="back">
-                                                            <rect key="frame" x="119.5" y="1" width="45" height="16"/>
+                                                            <rect key="frame" x="121" y="1" width="45" height="16"/>
                                                             <state key="normal" image="arrowBack"/>
                                                         </button>
                                                     </subviews>
@@ -282,7 +281,7 @@ ALL RIGHTS RESERVED 2017. </string>
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SPc-GP-hpI" userLabel="Footer">
-                                                    <rect key="frame" x="8" y="589" width="356" height="45"/>
+                                                    <rect key="frame" x="8" y="614" width="359" height="45"/>
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5E-M4-uuk" userLabel="Back">
                                                             <rect key="frame" x="0.0" y="0.0" width="45" height="45"/>
@@ -292,23 +291,23 @@ ALL RIGHTS RESERVED 2017. </string>
                                                             </connections>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOk-7W-Q8m" userLabel="Menu">
-                                                            <rect key="frame" x="333" y="9" width="23" height="27"/>
+                                                            <rect key="frame" x="336" y="9" width="23" height="27"/>
                                                             <state key="normal" image="UpArrowsBlack"/>
                                                             <connections>
-                                                                <segue destination="rgn-Lk-E49" kind="presentation" identifier="toEdit" id="pOr-Pk-yuL"/>
+                                                                <segue destination="rgn-Lk-E49" kind="show" identifier="toSettings" id="MQ8-CR-FkU"/>
                                                             </connections>
                                                         </button>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="colorBlack" translatesAutoresizingMaskIntoConstraints="NO" id="Lt1-L4-nQ2">
-                                                            <rect key="frame" x="306" y="9" width="12" height="12"/>
+                                                            <rect key="frame" x="309" y="9" width="12" height="12"/>
                                                         </imageView>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AllignmentCenterSmall" translatesAutoresizingMaskIntoConstraints="NO" id="jOl-wr-hBI">
-                                                            <rect key="frame" x="266" y="9" width="21" height="18"/>
+                                                            <rect key="frame" x="269" y="9" width="21" height="18"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="21" id="rQB-H5-Uga"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Font Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jgy-3D-SYU">
-                                                            <rect key="frame" x="138" y="5" width="120" height="21"/>
+                                                            <rect key="frame" x="141" y="5" width="120" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="120" id="nMJ-AE-bmT"/>
                                                             </constraints>
@@ -316,8 +315,8 @@ ALL RIGHTS RESERVED 2017. </string>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Regular" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzc-pA-vIQ">
-                                                            <rect key="frame" x="138" y="24" width="100" height="21"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Regular" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzc-pA-vIQ" userLabel="Font Weight">
+                                                            <rect key="frame" x="141" y="24" width="100" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="h1r-L4-bRb"/>
                                                             </constraints>
@@ -326,7 +325,6 @@ ALL RIGHTS RESERVED 2017. </string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <constraints>
                                                         <constraint firstItem="EOk-7W-Q8m" firstAttribute="leading" secondItem="Lt1-L4-nQ2" secondAttribute="trailing" constant="15" id="075-eu-Vgw"/>
                                                         <constraint firstItem="tzc-pA-vIQ" firstAttribute="leading" secondItem="Jgy-3D-SYU" secondAttribute="leading" id="9aL-op-4qG"/>
@@ -345,6 +343,7 @@ ALL RIGHTS RESERVED 2017. </string>
                                                 </view>
                                             </subviews>
                                         </view>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="Li7-ZJ-olE" firstAttribute="top" secondItem="B4e-qI-gaB" secondAttribute="top" constant="35" id="4RH-TE-0Uz"/>
                                             <constraint firstItem="K1w-dY-ltL" firstAttribute="top" secondItem="Li7-ZJ-olE" secondAttribute="bottom" id="AVL-Pp-LVC"/>
@@ -358,10 +357,13 @@ ALL RIGHTS RESERVED 2017. </string>
                                             <constraint firstAttribute="bottom" secondItem="Li7-ZJ-olE" secondAttribute="bottom" constant="100" id="oLi-KH-UiB"/>
                                             <constraint firstAttribute="trailing" secondItem="Li7-ZJ-olE" secondAttribute="trailing" constant="20" id="uxa-jx-1Ch"/>
                                         </constraints>
-                                        <size key="customSize" width="372" height="642"/>
+                                        <size key="customSize" width="375" height="667"/>
                                         <connections>
+                                            <outlet property="backButton" destination="j5E-M4-uuk" id="U8Q-J0-ee4"/>
                                             <outlet property="fontName" destination="Jgy-3D-SYU" id="VYs-yL-99z"/>
-                                            <outlet property="fornWeight" destination="tzc-pA-vIQ" id="Kbg-DW-wAq"/>
+                                            <outlet property="fontWeight" destination="tzc-pA-vIQ" id="ykR-Xo-jxf"/>
+                                            <outlet property="footerView" destination="SPc-GP-hpI" id="dnh-e7-aco"/>
+                                            <outlet property="menuView" destination="EOk-7W-Q8m" id="r3s-rT-e6d"/>
                                             <outlet property="textAllignment" destination="jOl-wr-hBI" id="pxf-MM-ZDD"/>
                                             <outlet property="textColor" destination="Lt1-L4-nQ2" id="6YZ-Jg-XPn"/>
                                             <outlet property="textView" destination="Li7-ZJ-olE" id="itW-gb-vUy"/>
@@ -370,12 +372,11 @@ ALL RIGHTS RESERVED 2017. </string>
                                 </cells>
                             </collectionView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ja4-Pd-Gk0" firstAttribute="leading" secondItem="9Sh-sU-LYE" secondAttribute="leading" id="71s-3S-ifj"/>
-                            <constraint firstAttribute="trailing" secondItem="ja4-Pd-Gk0" secondAttribute="trailing" id="7b0-qK-CmL"/>
-                            <constraint firstItem="94t-fk-h0V" firstAttribute="top" secondItem="ja4-Pd-Gk0" secondAttribute="bottom" id="NGf-aq-vTK"/>
-                            <constraint firstItem="ja4-Pd-Gk0" firstAttribute="top" secondItem="QhW-uy-FXV" secondAttribute="bottom" id="YQr-O6-22O"/>
+                            <constraint firstItem="94t-fk-h0V" firstAttribute="top" secondItem="ja4-Pd-Gk0" secondAttribute="bottom" id="4CC-x1-yCV"/>
+                            <constraint firstItem="ja4-Pd-Gk0" firstAttribute="top" secondItem="9Sh-sU-LYE" secondAttribute="top" id="7ut-sB-y9C"/>
+                            <constraint firstAttribute="trailing" secondItem="ja4-Pd-Gk0" secondAttribute="trailing" id="Sib-6j-xOY"/>
+                            <constraint firstItem="ja4-Pd-Gk0" firstAttribute="leading" secondItem="9Sh-sU-LYE" secondAttribute="leading" id="a8O-Bc-j31"/>
                         </constraints>
                     </view>
                     <connections>
@@ -385,7 +386,7 @@ ALL RIGHTS RESERVED 2017. </string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7bC-3I-dea" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="98s-tG-fqq" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="760.79999999999995" y="80.50974512743629"/>
+            <point key="canvasLocation" x="530" y="37"/>
         </scene>
         <!--Edit View Controller-->
         <scene sceneID="nrx-iT-tG7">
@@ -523,7 +524,7 @@ ALL RIGHTS RESERVED 2017. </string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ya0-gz-Udv" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="SZ0-iL-x6L" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="760.79999999999995" y="832.53373313343332"/>
+            <point key="canvasLocation" x="530" y="842"/>
         </scene>
     </scenes>
     <resources>

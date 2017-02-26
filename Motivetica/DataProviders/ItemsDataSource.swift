@@ -34,7 +34,7 @@ final class ItemsDataSource<Item>:NSObject, UICollectionViewDataSource {
     
     let item = items[indexPath.row]
     let descriptor = cellDescriptor(item)
-    
+  
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: descriptor.reuseIdentifier, for: indexPath)
     descriptor.configure(cell)
     return cell

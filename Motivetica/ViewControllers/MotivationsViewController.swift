@@ -22,7 +22,7 @@ class MotivationsViewController: UIViewController {
     collectionView.delegate = self
   
     let cellWidth = UIScreen.main.bounds.size.width
-    let cellHeight = UIScreen.main.bounds.size.height - 20
+    let cellHeight = UIScreen.main.bounds.size.height
     let layout = collectionView.collectionViewLayout as! MotivationsLayout
     layout.itemSize = CGSize(width: cellWidth, height: cellHeight)
   }
@@ -38,28 +38,8 @@ class MotivationsViewController: UIViewController {
   @IBAction func unwindFromEdit(_ sender: UIStoryboardSegue){
     print("Back from Edit.Set changes here!")
   }
-  
-  func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
-    let collectionLayout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
-    let index = scrollView.contentOffset.x / collectionLayout.itemSize.width
-    let fracPart = index.truncatingRemainder(dividingBy: 1)
-    let item = Int(fracPart >= 0.5 ? ceil(index) : floor(index))
-    
-    let indexPath = IndexPath(item: item, section: 0)
-    self.view.backgroundColor = UIColor(hex: motivations[indexPath.row].backgroundColor)
-    
-    print(motivations[indexPath.row].backgroundColor)
-  }
 
 }
 
-extension MotivationsViewController : UICollectionViewDelegate {
-  func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
-    print("DO SOMETHING")
-  }
-  
-  func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-    
-  }
-}
+extension MotivationsViewController : UICollectionViewDelegate { }
 
