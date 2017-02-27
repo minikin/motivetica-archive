@@ -58,19 +58,21 @@ extension Motivation {
 
 extension Motivation {
   func configureCell(_ cell: MotivationCollectionViewCell) {
-    
+        
     cell.backgroundColor = UIColor(hex: backgroundColor)
     cell.textView.backgroundColor = UIColor(hex: backgroundColor)
     cell.textView.textColor = UIColor(hex: fontColor)
     cell.textView.text = motivationText
-    cell.footerView.backgroundColor = UIColor(hex: backgroundColor)
     cell.textView.font = UIFont(name: fontType, size: CGFloat(NumberFormatter().number(from: fontSize)!))
-    cell.fontName.text = fontType
-    cell.fontName.font =  UIFont(name: fontType, size: 16.0)
-    cell.fontName.textColor = UIColor(hex: fontColor)
-    cell.fontWeight.text = fontWeight
-    cell.fontWeight.font = UIFont(name: fontType, size: 12.0)
-    cell.fontWeight.textColor = UIColor(hex: fontColor)
+    
+//    cell.footerView.backgroundColor = UIColor(hex: backgroundColor)
+
+//    cell.fontName.text = fontType
+//    cell.fontName.font =  UIFont(name: fontType, size: 16.0)
+//    cell.fontName.textColor = UIColor(hex: fontColor)
+//    cell.fontWeight.text = fontWeight
+//    cell.fontWeight.font = UIFont(name: fontType, size: 12.0)
+//    cell.fontWeight.textColor = UIColor(hex: fontColor)
     
   }
 }

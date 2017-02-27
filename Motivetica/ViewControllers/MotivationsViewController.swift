@@ -11,19 +11,27 @@ import Hue
 
 class MotivationsViewController: UIViewController {
   
-  @IBOutlet weak var collectionView: UICollectionView!
+  @IBOutlet weak var motivationsCollectionView: UICollectionView!
+  @IBOutlet weak var footerView: UIView!
+  @IBOutlet weak var backToHome: UIButton!
+  @IBOutlet weak var editButton: UIButton!
+  @IBOutlet weak var textColor: UIImageView!
+  @IBOutlet weak var allignment: UIImageView!
+  @IBOutlet weak var fontName: UILabel!
+  @IBOutlet weak var fontWeight: UILabel!
+  
   var motivations = [Motivation]()
   var motivationsDataSourse = ItemsDataSource(items:[Motivation](), cellDescriptor:{ $0.cellDescriptor })
 
   override func viewDidLoad() {
       super.viewDidLoad()
     
-    collectionView.dataSource = motivationsDataSourse
-    collectionView.delegate = self
+    motivationsCollectionView.dataSource = motivationsDataSourse
+    motivationsCollectionView.delegate = self
   
     let cellWidth = UIScreen.main.bounds.size.width
-    let cellHeight = UIScreen.main.bounds.size.height
-    let layout = collectionView.collectionViewLayout as! MotivationsLayout
+    let cellHeight = UIScreen.main.bounds.size.height - footerView.frame.height - 8
+    let layout = motivationsCollectionView.collectionViewLayout as! MotivationsLayout
     layout.itemSize = CGSize(width: cellWidth, height: cellHeight)
   }
   
@@ -31,8 +39,8 @@ class MotivationsViewController: UIViewController {
     super.viewWillAppear(false)
         
     motivationsDataSourse.items = motivations
-    collectionView.dataSource = motivationsDataSourse
-    collectionView.reloadData()
+    motivationsCollectionView.dataSource = motivationsDataSourse
+    motivationsCollectionView.reloadData()
   }
 
   @IBAction func unwindFromEdit(_ sender: UIStoryboardSegue){
@@ -41,5 +49,11 @@ class MotivationsViewController: UIViewController {
 
 }
 
-extension MotivationsViewController : UICollectionViewDelegate { }
+extension MotivationsViewController : UICollectionViewDelegate {
+
+
+
+
+
+}
 
