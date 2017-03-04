@@ -15,6 +15,7 @@ struct Motivation {
   let published: Bool
   let motivationText: String
   let fontType: String
+  let fontText: String
   let fontWeight: String
   let fontSize: String
   let fontColor: String
@@ -28,6 +29,7 @@ extension Motivation {
       let published = json["published"] as? Bool,
       let motivationText = json["motivationText"] as? String,
       let fontType = json["fontType"] as? String,
+      let fontText = json["fontText"] as? String,
       let fontWeight = json["fontWeight"] as? String,
       let fontSize = json["fontSize"] as? String,
       let fontColor = json["fontColor"] as? String,
@@ -41,6 +43,7 @@ extension Motivation {
     self.published = published
     self.motivationText = motivationText
     self.fontType = fontType
+    self.fontText = fontText
     self.fontWeight = fontWeight
     self.fontSize = fontSize
     self.fontColor = fontColor
@@ -57,6 +60,7 @@ extension Motivation {
 }
 
 extension Motivation {
+  
   func configureCell(_ cell: MotivationCollectionViewCell) {
     
     cell.backgroundColor = UIColor(hex: backgroundColor)
@@ -64,6 +68,19 @@ extension Motivation {
     cell.textView.textColor = UIColor(hex: fontColor)
     cell.textView.text = motivationText
     cell.textView.font = UIFont(name: fontType, size: CGFloat(NumberFormatter().number(from: fontSize)!))
+    
+    while cell.textView.contentSize.height > cell.textView.frame.size.height {
+      cell.textView.font = UIFont(name: fontType, size:CGFloat((cell.textView.font?.pointSize)! - 1))
+    }
+    
+    print("cell.textView.contentSize.height", cell.textView.contentSize.height, cell.textView.frame.size.height)
+    
+//    if cell.textView.contentSize.height > cell.textView.frame.size.height {
+//      while cell.textView.contentSize.height > cell.textView.frame.size.height {
+//        cell.textView.font = UIFont(name: fontType, size:CGFloat((cell.textView.font?.pointSize)! - 1))
+//      }
+//    }
+  
   }
 }
 
