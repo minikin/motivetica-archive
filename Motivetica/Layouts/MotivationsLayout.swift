@@ -51,7 +51,6 @@ class MotivationsLayout: UICollectionViewFlowLayout {
         if(proposedContentOffset.x == -(cv.contentInset.left)) {
           return proposedContentOffset
         }
-        
         return CGPoint(x: floor(candidateAttributes!.center.x - halfWidth), y: proposedContentOffset.y)
       }
     }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,20 +18,21 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="p40-UJ-ajQ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" red="0.094117647058823528" green="0.098039215686274508" blue="0.10588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="border" translatesAutoresizingMaskIntoConstraints="NO" id="3iO-PJ-RBB">
+                                <rect key="frame" x="126.66666666666669" y="120" width="161" height="207"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="161" id="9ln-IX-mqj"/>
+                                    <constraint firstAttribute="height" constant="207" id="N9l-G8-lm3"/>
+                                </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.094117647058823528" green="0.098039215686274508" blue="0.10588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.12549019607843137" green="0.12549019607843137" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="p40-UJ-ajQ" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="ETP-at-VCp"/>
-                            <constraint firstAttribute="trailing" secondItem="p40-UJ-ajQ" secondAttribute="trailing" id="VUT-RE-ZmN"/>
-                            <constraint firstItem="p40-UJ-ajQ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ax1-lX-FQa"/>
-                            <constraint firstItem="p40-UJ-ajQ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="eBi-Oa-kF6"/>
+                            <constraint firstItem="3iO-PJ-RBB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="RNh-Dh-vEi"/>
+                            <constraint firstItem="3iO-PJ-RBB" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="120" id="hIP-Ar-vix"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
@@ -44,6 +45,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Splash" width="375" height="667"/>
+        <image name="border" width="161" height="207"/>
     </resources>
 </document>
